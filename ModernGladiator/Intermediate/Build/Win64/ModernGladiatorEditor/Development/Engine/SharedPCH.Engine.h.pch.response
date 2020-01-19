@@ -254,11 +254,11 @@
 /I "D:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "D:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "D:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/I D:\lesupermomo\git2\ModernGladiator\Intermediate\Build\Win64\ModernGladiatorEditor\Development\Engine
-/Yc"D:\lesupermomo\git2\ModernGladiator\Intermediate\Build\Win64\ModernGladiatorEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\lesupermomo\git2\ModernGladiator\Intermediate\Build\Win64\ModernGladiatorEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\lesupermomo\git2\ModernGladiator\Intermediate\Build\Win64\ModernGladiatorEditor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"D:\lesupermomo\git2\ModernGladiator\Intermediate\Build\Win64\ModernGladiatorEditor\Development\Engine\SharedPCH.Engine.h.obj"
+/I D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\ModernGladiatorEditor\Development\Engine
+/Yc"D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\ModernGladiatorEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\ModernGladiatorEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\ModernGladiatorEditor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\ModernGladiatorEditor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4

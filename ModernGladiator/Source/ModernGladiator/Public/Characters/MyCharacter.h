@@ -51,6 +51,13 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Camera")
 		float BaseLookUpAtRate;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Interaction")
+		float TraceDistance;
+
+	UFUNCTION(BlueprintNativeEvent)
+		void TraceForward();
+		void TraceForward_Implementation();
+
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Camera")
 		float MinZ;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Camera")

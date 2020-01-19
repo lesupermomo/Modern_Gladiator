@@ -33,6 +33,8 @@ AMyCharacter::AMyCharacter()
 
 	BaseTurnRate = 45;
 	BaseLookUpAtRate = 45;
+	TraceDistance = 2000;
+
 	MinZ = 10;
 	MaxZ = 500;
 	
@@ -97,6 +99,12 @@ void AMyCharacter::LookUpAtRate(float Value)
 
 void AMyCharacter::InteractPressed()
 {
+	TraceForward();//will call the TraceForward_Implementation
+
+}
+
+void AMyCharacter::TraceForward_Implementation()
+{
 	FVector Location;
 	FRotator Rotation;
 	FHitResult Hit;
@@ -104,14 +112,26 @@ void AMyCharacter::InteractPressed()
 	GetController()->GetPlayerViewPoint(Location, Rotation);
 
 	FVector Start = Location;
-	FVector End = Start + (Rotation.Vector()*2000);//tracing forward from our starting point
+	FVector End = Start + (Rotation.Vector() * TraceDistance);//tracing forward from our starting point
 
 	FCollisionQueryParams TraceParams;
-	GetWorld()->LineTraceSingleByChannel(Hit,Start,End,ECC_Visibility,TraceParams);
+	bool bHit= GetWorld()->LineTraceSingleByChannel(Hit, Start, End, ECC_Visibility, TraceParams);
 
 	DrawDebugLine(GetWorld(), Start, End, FColor::Orange, false, 2.0f);
 
+	if (bHit)//if true
+	{
+		DrawDebugBox(GetWorld(), Hit.ImpactPoint,FVector (5,5,5) , FColor::Green, false, 2.0f);
+	}
+
 }
+
+//void AMyCharacter::TraceForward()
+//{
+//	
+//}
+
+
 
 // Called to bind functionality to input
 void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
