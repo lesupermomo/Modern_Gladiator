@@ -24,13 +24,13 @@ class MODERNGLADIATOR_API IInteractInterface
 public:
 
 	//when the player interacts with it
-	//UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category="Interaction")
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category="Interaction")
 	void OnInteract(AActor* Caller);
 
-	//UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
 		void StartFocus();
 
-	//UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
 		void EndFocus();
 
 };

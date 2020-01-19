@@ -8,14 +8,83 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
 #ifdef MODERNGLADIATOR_InteractInterface_generated_h
 #error "InteractInterface.generated.h already included, missing '#pragma once' in InteractInterface.h"
 #endif
 #define MODERNGLADIATOR_InteractInterface_generated_h
 
 #define ModernGladiator_Source_ModernGladiator_Public_Interact_InteractInterface_h_13_SPARSE_DATA
-#define ModernGladiator_Source_ModernGladiator_Public_Interact_InteractInterface_h_13_RPC_WRAPPERS
-#define ModernGladiator_Source_ModernGladiator_Public_Interact_InteractInterface_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define ModernGladiator_Source_ModernGladiator_Public_Interact_InteractInterface_h_13_RPC_WRAPPERS \
+	virtual void EndFocus_Implementation() {}; \
+	virtual void StartFocus_Implementation() {}; \
+	virtual void OnInteract_Implementation(AActor* Caller) {}; \
+ \
+	DECLARE_FUNCTION(execEndFocus) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EndFocus_Implementation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execStartFocus) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->StartFocus_Implementation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnInteract) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_Caller); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnInteract_Implementation(Z_Param_Caller); \
+		P_NATIVE_END; \
+	}
+
+
+#define ModernGladiator_Source_ModernGladiator_Public_Interact_InteractInterface_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void EndFocus_Implementation() {}; \
+	virtual void StartFocus_Implementation() {}; \
+	virtual void OnInteract_Implementation(AActor* Caller) {}; \
+ \
+	DECLARE_FUNCTION(execEndFocus) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EndFocus_Implementation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execStartFocus) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->StartFocus_Implementation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnInteract) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_Caller); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnInteract_Implementation(Z_Param_Caller); \
+		P_NATIVE_END; \
+	}
+
+
+#define ModernGladiator_Source_ModernGladiator_Public_Interact_InteractInterface_h_13_EVENT_PARMS \
+	struct InteractInterface_eventOnInteract_Parms \
+	{ \
+		AActor* Caller; \
+	};
+
+
+#define ModernGladiator_Source_ModernGladiator_Public_Interact_InteractInterface_h_13_CALLBACK_WRAPPERS
 #define ModernGladiator_Source_ModernGladiator_Public_Interact_InteractInterface_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	MODERNGLADIATOR_API UInteractInterface(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
@@ -72,6 +141,9 @@ protected: \
 public: \
 	typedef UInteractInterface UClassType; \
 	typedef IInteractInterface ThisClass; \
+	static void Execute_EndFocus(UObject* O); \
+	static void Execute_OnInteract(UObject* O, AActor* Caller); \
+	static void Execute_StartFocus(UObject* O); \
 	virtual UObject* _getUObject() const { check(0 && "Missing required implementation."); return nullptr; }
 
 
@@ -81,15 +153,22 @@ protected: \
 public: \
 	typedef UInteractInterface UClassType; \
 	typedef IInteractInterface ThisClass; \
+	static void Execute_EndFocus(UObject* O); \
+	static void Execute_OnInteract(UObject* O, AActor* Caller); \
+	static void Execute_StartFocus(UObject* O); \
 	virtual UObject* _getUObject() const { check(0 && "Missing required implementation."); return nullptr; }
 
 
-#define ModernGladiator_Source_ModernGladiator_Public_Interact_InteractInterface_h_10_PROLOG
+#define ModernGladiator_Source_ModernGladiator_Public_Interact_InteractInterface_h_10_PROLOG \
+	ModernGladiator_Source_ModernGladiator_Public_Interact_InteractInterface_h_13_EVENT_PARMS
+
+
 #define ModernGladiator_Source_ModernGladiator_Public_Interact_InteractInterface_h_21_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	ModernGladiator_Source_ModernGladiator_Public_Interact_InteractInterface_h_13_SPARSE_DATA \
 	ModernGladiator_Source_ModernGladiator_Public_Interact_InteractInterface_h_13_RPC_WRAPPERS \
+	ModernGladiator_Source_ModernGladiator_Public_Interact_InteractInterface_h_13_CALLBACK_WRAPPERS \
 	ModernGladiator_Source_ModernGladiator_Public_Interact_InteractInterface_h_13_INCLASS_IINTERFACE \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
@@ -100,6 +179,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	ModernGladiator_Source_ModernGladiator_Public_Interact_InteractInterface_h_13_SPARSE_DATA \
 	ModernGladiator_Source_ModernGladiator_Public_Interact_InteractInterface_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	ModernGladiator_Source_ModernGladiator_Public_Interact_InteractInterface_h_13_CALLBACK_WRAPPERS \
 	ModernGladiator_Source_ModernGladiator_Public_Interact_InteractInterface_h_13_INCLASS_IINTERFACE_NO_PURE_DECLS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

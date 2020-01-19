@@ -154,15 +154,5 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 }
 
-void AMyCharacter::OnInteract(AActor* Caller)
-{
-}
 
-void AMyCharacter::StartFocus()
-{
-}
-
-void AMyCharacter::EndFocus()
-{
-}
 

@@ -13,8 +13,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MODERNGLADIATOR_MyCharacter_generated_h
 
-#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_SPARSE_DATA
-#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_RPC_WRAPPERS \
+#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_SPARSE_DATA
+#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_RPC_WRAPPERS \
 	virtual void TraceForward_Implementation(); \
  \
 	DECLARE_FUNCTION(execTraceForward) \
@@ -26,7 +26,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execTraceForward) \
 	{ \
@@ -37,29 +37,27 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_EVENT_PARMS
-#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_CALLBACK_WRAPPERS
-#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_INCLASS_NO_PURE_DECLS \
+#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_EVENT_PARMS
+#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_CALLBACK_WRAPPERS
+#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyCharacter(); \
 	friend struct Z_Construct_UClass_AMyCharacter_Statics; \
 public: \
 	DECLARE_CLASS(AMyCharacter, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/ModernGladiator"), NO_API) \
-	DECLARE_SERIALIZER(AMyCharacter) \
-	virtual UObject* _getUObject() const override { return const_cast<AMyCharacter*>(this); }
+	DECLARE_SERIALIZER(AMyCharacter)
 
 
-#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_INCLASS \
+#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesAMyCharacter(); \
 	friend struct Z_Construct_UClass_AMyCharacter_Statics; \
 public: \
 	DECLARE_CLASS(AMyCharacter, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/ModernGladiator"), NO_API) \
-	DECLARE_SERIALIZER(AMyCharacter) \
-	virtual UObject* _getUObject() const override { return const_cast<AMyCharacter*>(this); }
+	DECLARE_SERIALIZER(AMyCharacter)
 
 
-#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_STANDARD_CONSTRUCTORS \
+#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyCharacter) \
@@ -72,7 +70,7 @@ private: \
 public:
 
 
-#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_ENHANCED_CONSTRUCTORS \
+#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMyCharacter(AMyCharacter&&); \
@@ -83,7 +81,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMyCharacter)
 
 
-#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_PRIVATE_PROPERTY_OFFSET \
+#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__BaseTurnRate() { return STRUCT_OFFSET(AMyCharacter, BaseTurnRate); } \
 	FORCEINLINE static uint32 __PPO__BaseLookUpAtRate() { return STRUCT_OFFSET(AMyCharacter, BaseLookUpAtRate); } \
 	FORCEINLINE static uint32 __PPO__TraceDistance() { return STRUCT_OFFSET(AMyCharacter, TraceDistance); } \
@@ -91,32 +89,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacter); \
 	FORCEINLINE static uint32 __PPO__MaxZ() { return STRUCT_OFFSET(AMyCharacter, MaxZ); }
 
 
-#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_16_PROLOG \
-	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_EVENT_PARMS
+#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_15_PROLOG \
+	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_EVENT_PARMS
 
 
-#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_GENERATED_BODY_LEGACY \
+#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_PRIVATE_PROPERTY_OFFSET \
-	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_SPARSE_DATA \
-	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_RPC_WRAPPERS \
-	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_CALLBACK_WRAPPERS \
-	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_INCLASS \
-	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_STANDARD_CONSTRUCTORS \
+	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
+	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_SPARSE_DATA \
+	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_RPC_WRAPPERS \
+	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_CALLBACK_WRAPPERS \
+	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_INCLASS \
+	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_GENERATED_BODY \
+#define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_PRIVATE_PROPERTY_OFFSET \
-	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_SPARSE_DATA \
-	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
-	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_CALLBACK_WRAPPERS \
-	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_INCLASS_NO_PURE_DECLS \
-	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_19_ENHANCED_CONSTRUCTORS \
+	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_PRIVATE_PROPERTY_OFFSET \
+	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_SPARSE_DATA \
+	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_CALLBACK_WRAPPERS \
+	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_INCLASS_NO_PURE_DECLS \
+	ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

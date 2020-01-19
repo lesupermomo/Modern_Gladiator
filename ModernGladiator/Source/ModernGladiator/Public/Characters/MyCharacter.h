@@ -4,7 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "../../Public/Interact/InteractInterface.h"
 #include "MyCharacter.generated.h"
 
 
@@ -14,7 +13,7 @@ class UCameraComponent;
 class UStaticMeshComponent;
 
 UCLASS()
-class MODERNGLADIATOR_API AMyCharacter : public ACharacter, public IInteractInterface
+class MODERNGLADIATOR_API AMyCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
@@ -73,13 +72,5 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	//UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
-	void OnInteract(AActor* Caller);
-
-	//UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
-	void StartFocus();
-
-	//UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
-	void EndFocus();
 
 };

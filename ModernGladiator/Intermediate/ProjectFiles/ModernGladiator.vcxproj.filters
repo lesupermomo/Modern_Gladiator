@@ -61,6 +61,9 @@
     <Filter Include="Source\ModernGladiator\Private\Interact">
       <UniqueIdentifier>{abe4675f-a473-40e8-b3c3-7b0caa563430}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\ModernGladiator\Interact">
+      <UniqueIdentifier>{31711887-aa71-4dde-9253-6772d512f707}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\ModernGladiator\Public\Characters\MyCharacter.h">
@@ -69,12 +72,30 @@
     <ClInclude Include="..\..\Source\ModernGladiator\Public\Interact\InteractInterface.h">
       <Filter>Source\ModernGladiator\Public\Interact</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\ModernGladiator\Interact\MyInteract.h">
+      <Filter>Source\ModernGladiator\Interact</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ModernGladiator\Public\Interact\MyActor.h">
+      <Filter>Source\ModernGladiator\Public\Interact</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ModernGladiator\Public\Interact\MyInteractable.h">
+      <Filter>Source\ModernGladiator\Public\Interact</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\ModernGladiator\Private\Characters\MyCharacter.cpp">
       <Filter>Source\ModernGladiator\Private\Characters</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\ModernGladiator\Private\Interact\InteractInterface.cpp">
+      <Filter>Source\ModernGladiator\Private\Interact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ModernGladiator\Interact\MyInteract.cpp">
+      <Filter>Source\ModernGladiator\Interact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ModernGladiator\Private\Interact\MyActor.cpp">
+      <Filter>Source\ModernGladiator\Private\Interact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ModernGladiator\Private\Interact\MyInteractable.cpp">
       <Filter>Source\ModernGladiator\Private\Interact</Filter>
     </ClCompile>
   </ItemGroup>
