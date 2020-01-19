@@ -134,8 +134,7 @@ void AMyCharacter::TraceForward_Implementation()
 	{
 		//DrawDebugBox(GetWorld(), Hit.ImpactPoint,FVector (5,5,5) , FColor::Green, false, 2.0f);
 		AActor* Interactable = Hit.GetActor();
-		
-
+	
 		if (Interactable)
 		{
 			if(Interactable!=FocusedActor )
@@ -155,8 +154,6 @@ void AMyCharacter::TraceForward_Implementation()
 				}
 				FocusedActor = Interactable;
 			}
-			
-
 		}
 		else
 		{
