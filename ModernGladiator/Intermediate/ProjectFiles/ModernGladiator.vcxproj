@@ -266,7 +266,9 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\ModernGladiator\Private\Characters\MyCharacter.cpp" />
+    <ClCompile Include="..\..\Source\ModernGladiator\Private\Interact\InteractInterface.cpp" />
     <ClInclude Include="..\..\Source\ModernGladiator\Public\Characters\MyCharacter.h" />
+    <ClInclude Include="..\..\Source\ModernGladiator\Public\Interact\InteractInterface.h" />
     <None Include="..\..\ModernGladiator.uproject" />
     <None Include="..\..\Source\ModernGladiator.Target.cs" />
     <None Include="..\..\Source\ModernGladiatorEditor.Target.cs" />

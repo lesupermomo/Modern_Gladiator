@@ -55,15 +55,27 @@
     <Filter Include="Source\ModernGladiator\Private\Characters">
       <UniqueIdentifier>{e78e8ecf-6c6c-4dc5-8593-000a488dea9d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\ModernGladiator\Public\Interact">
+      <UniqueIdentifier>{eee25c80-3902-40ea-9335-6fd76243b720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ModernGladiator\Private\Interact">
+      <UniqueIdentifier>{abe4675f-a473-40e8-b3c3-7b0caa563430}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\ModernGladiator\Public\Characters\MyCharacter.h">
       <Filter>Source\ModernGladiator\Public\Characters</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\ModernGladiator\Public\Interact\InteractInterface.h">
+      <Filter>Source\ModernGladiator\Public\Interact</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\ModernGladiator\Private\Characters\MyCharacter.cpp">
       <Filter>Source\ModernGladiator\Private\Characters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ModernGladiator\Private\Interact\InteractInterface.cpp">
+      <Filter>Source\ModernGladiator\Private\Interact</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

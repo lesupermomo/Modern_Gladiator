@@ -625,3 +625,370 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.19-05.57.43:795][126]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
 [2020.01.19-05.57.43:809][126]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 3019 classes and 724 folders.
 [2020.01.19-05.57.43:860][126]Display: HotReload took  0.5s.
+[2020.01.19-06.01.47:397][ 43]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.19-06.01.47:415][ 43]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.19-06.01.47:428][ 43]PIE: New page: PIE session: Main (Jan 18, 2020, 8:01:47 PM)
+[2020.01.19-06.01.47:429][ 43]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.01.19-06.01.47:451][ 43]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.01.19-06.01.47:451][ 43]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.01.19-06.01.47:454][ 43]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002549s)
+[2020.01.19-06.01.47:458][ 43]LogAIModule: Creating AISystem for world Main
+[2020.01.19-06.01.47:458][ 43]LogPlayLevel: PIE: World Init took: (0.003603s)
+[2020.01.19-06.01.47:458][ 43]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.006351s)
+[2020.01.19-06.01.47:511][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2020.01.19-06.01.47:512][ 43]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.19-06.01.47:512][ 43]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.19-06.01.47:512][ 43]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.19-06.01.47:512][ 43]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.19-06.01.47:512][ 43]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.19-06.01.47:512][ 43]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.19-06.01.47:512][ 43]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.19-06.01.47:513][ 43]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.19-06.01.47:513][ 43]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.19-06.01.47:513][ 43]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.19-06.01.47:526][ 43]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.19-06.01.47:526][ 43]LogAudioMixer: Display: Name: Speakers/Headphones (Realtek(R) Audio)
+[2020.01.19-06.01.47:526][ 43]LogAudioMixer: Display: Is Default: Yes
+[2020.01.19-06.01.47:526][ 43]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.19-06.01.47:526][ 43]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.19-06.01.47:526][ 43]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.19-06.01.47:526][ 43]LogAudioMixer: Display: Channel Order:
+[2020.01.19-06.01.47:526][ 43]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.19-06.01.47:526][ 43]LogAudioMixer: Display: 1: FrontRight
+[2020.01.19-06.01.47:631][ 43]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2020.01.19-06.01.47:633][ 43]LogInit: FAudioDevice initialized.
+[2020.01.19-06.01.47:655][ 43]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.01.19-06.01.47:656][ 43]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.01.19-01.01.47
+[2020.01.19-06.01.47:657][ 43]LogWorld: Bringing up level for play took: 0.000707
+[2020.01.19-06.01.47:657][ 43]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.01.19-06.01.47:703][ 43]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.01.19-06.01.47:704][ 43]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main 1.154
+[2020.01.19-06.01.53:467][364]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.19-06.01.53:467][364]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.19-06.01.53:467][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.19-06.01.53:467][364]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.01.19-06.01.53:467][364]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.19-06.01.53:467][364]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.01.19-06.01.53:467][364]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.19-06.01.53:476][364]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.19-06.01.53:481][364]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.19-06.01.53:518][364]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.19-06.01.53:522][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.19-06.01.53:558][364]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2020.01.19-06.01.53:575][365]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.01.19-06.02.31:687][246]LogSlate: Window 'BP_Character' being destroyed
+[2020.01.19-06.02.31:695][247]LogRenderer: Reallocating scene render targets to support 1428x880 Format 10 NumSamples 1 (Frame:6412).
+[2020.01.19-06.02.35:127][450]MapCheck: New page: Map Check
+[2020.01.19-06.02.35:143][450]Cmd: MAP REBUILD ALLVISIBLE
+[2020.01.19-06.02.35:143][450]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.01.19-06.02.35:214][450]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=false
+[2020.01.19-06.02.35:274][450]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2020.01.19-06.02.35:285][450]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.01.19-06.02.35:300][450]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.01.19-06.02.35:300][450]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.01.19-06.02.35:300][450]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.01.19-06.02.35:311][450]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.01.19-06.02.35:820][450]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2020.01.19-06.02.35:820][450]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2020.01.19-06.02.35:820][450]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2020.01.19-06.02.35:820][450]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2020.01.19-06.02.35:820][450]TextureStreamingBuild: Display: Compiling optional shaders took 0.544 seconds.
+[2020.01.19-06.02.35:834][450]LogLevel: Display: Export Material TexCoord Scales took 0.013 seconds.
+[2020.01.19-06.02.35:843][450]TextureStreamingBuild: Display: Build Texture Streaming took 0.010 seconds.
+[2020.01.19-06.02.35:896][450]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.01.19-06.02.35:899][450]LightingResults: New page: Lighting Build - Jan 18, 2020, 8:02:35 PM
+[2020.01.19-06.02.36:072][450]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.01.19-06.02.36:208][450]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.01.19-06.02.36:227][450]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.01.19-06.02.36:763][450]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.01.19-06.02.36:763][450]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20312
+[2020.01.19-06.02.43:563][450]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.01.19-06.02.43:563][450]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.01.19-06.02.43:563][450]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.01.19-06.02.43:563][450]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.01.19-06.02.43:563][450]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.01.19-06.02.43:563][450]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.01.19-06.02.43:740][450]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.01.19-06.02.43:740][450]MapCheck: New page: Main - Jan 18, 2020, 8:02:43 PM
+[2020.01.19-06.02.43:740][450]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.28ms to complete.
+[2020.01.19-06.02.43:742][450]LogEditorBuildUtils: Build time 0:08
+[2020.01.19-06.02.44:102][451]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2020.01.19-06.02.44:117][451]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2020.01.19-06.02.44:173][451]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.01.19-06.02.44:173][451]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.01.19-06.02.44:173][451]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.01.19-06.02.44:173][451]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.01.19-06.02.44:726][456]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2020.01.19-06.02.46:505][522]Job is a success!
+[2020.01.19-06.02.46:726][523]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.022s
+[2020.01.19-06.02.46:726][523]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.01.19-06.02.46:726][523]LogVolumetricLightmapImport:      BrickData (all levels) 0.4Mb
+[2020.01.19-06.02.46:726][523]LogVolumetricLightmapImport:      Bricks at depth
+[2020.01.19-06.02.46:726][523]LogVolumetricLightmapImport:          0: 1.3% covering 100.0% of volume
+[2020.01.19-06.02.46:726][523]LogVolumetricLightmapImport:          1: 5.0% covering 6.3% of volume
+[2020.01.19-06.02.46:726][523]LogVolumetricLightmapImport:          2: 93.8% covering 1.8% of volume
+[2020.01.19-06.02.46:726][523]LogVolumetricLightmapImport:      Bricks in each level
+[2020.01.19-06.02.46:726][523]LogVolumetricLightmapImport:          Main 			 80 bricks 	 100.0% (Persistent Level)
+[2020.01.19-06.02.46:801][523]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2020.01.19-06.02.46:802][523]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2020.01.19-06.02.46:802][523]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2020.01.19-06.02.46:802][523]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2020.01.19-06.02.46:802][523]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2020.01.19-06.02.46:802][523]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 512X128)
+[2020.01.19-06.02.46:802][523]Lightmass on DESKTOP-9VH3JGO: 1.19 sec total, 112 ms importing, 4 ms setup, 138 ms photons, 878 ms processing, 0 ms extra exporting [12/12 mappings]. Threads: 9.64 sec total, 882 ms processing.
+[2020.01.19-06.02.46:802][523]LogStaticLightingSystem: Main_BuiltData storing lightmap data for 12 meshes in 3 LightmapResourceClusters (4.0 Meshes per cluster).
+[2020.01.19-06.02.46:848][523]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.01.19-06.02.46:942][523]LogStaticLightingSystem: Illumination: 10.9 sec (35 ms encoding lightmaps, 14 ms encoding shadowmaps)
+[2020.01.19-06.02.46:942][523]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 4 textures
+[2020.01.19-06.02.46:942][523]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2020.01.19-06.02.47:576][523]DumpUnbuiltLightIteractions
+[2020.01.19-06.02.47:576][523]Lights with unbuilt interactions: 0
+[2020.01.19-06.02.47:576][523]
+[2020.01.19-06.02.47:576][523]Primitives with unbuilt interactions: 0
+[2020.01.19-06.02.47:687][524]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.01.19-06.02.47:687][524]MapCheck: New page: Main - Jan 18, 2020, 8:02:47 PM
+[2020.01.19-06.02.47:687][524]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.221ms to complete.
+[2020.01.19-06.02.48:355][564]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.19-06.02.48:369][564]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.19-06.02.48:369][564]PIE: New page: PIE session: Main (Jan 18, 2020, 8:02:48 PM)
+[2020.01.19-06.02.48:369][564]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.01.19-06.02.48:371][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002041s)
+[2020.01.19-06.02.48:372][564]LogAIModule: Creating AISystem for world Main
+[2020.01.19-06.02.48:372][564]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2020.01.19-06.02.48:372][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003111s)
+[2020.01.19-06.02.48:399][564]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.01.19-06.02.48:400][564]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.19-06.02.48:400][564]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.19-06.02.48:400][564]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.19-06.02.48:400][564]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.19-06.02.48:400][564]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.19-06.02.48:400][564]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.19-06.02.48:400][564]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.19-06.02.48:400][564]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.19-06.02.48:400][564]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.19-06.02.48:400][564]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.19-06.02.48:412][564]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.19-06.02.48:412][564]LogAudioMixer: Display: Name: Speakers/Headphones (Realtek(R) Audio)
+[2020.01.19-06.02.48:412][564]LogAudioMixer: Display: Is Default: Yes
+[2020.01.19-06.02.48:412][564]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.19-06.02.48:412][564]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.19-06.02.48:412][564]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.19-06.02.48:412][564]LogAudioMixer: Display: Channel Order:
+[2020.01.19-06.02.48:412][564]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.19-06.02.48:412][564]LogAudioMixer: Display: 1: FrontRight
+[2020.01.19-06.02.48:497][564]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2020.01.19-06.02.48:498][564]LogInit: FAudioDevice initialized.
+[2020.01.19-06.02.48:508][564]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.01.19-06.02.48:509][564]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.01.19-01.02.48
+[2020.01.19-06.02.48:509][564]LogWorld: Bringing up level for play took: 0.000600
+[2020.01.19-06.02.48:509][564]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.01.19-06.02.48:512][564]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.038
+[2020.01.19-06.03.37:456][499]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.19-06.03.37:456][499]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.19-06.03.37:456][499]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.19-06.03.37:456][499]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.01.19-06.03.37:456][499]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.19-06.03.37:456][499]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.01.19-06.03.37:456][499]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.19-06.03.37:464][499]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.19-06.03.37:468][499]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.19-06.03.37:500][499]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.19-06.03.37:504][499]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.19-06.03.37:508][499]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.01.19-06.03.37:565][501]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.01.19-06.04.07:452][825]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.01.19-06.04.07:474][825]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/Main_Auto1598D2BC44E6022B193CB23BAA7B4AF06.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/Autosaves/Game/Maps/Main_Auto1.umap'
+[2020.01.19-06.04.07:477][825]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.058
+[2020.01.19-06.04.07:477][825]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.058
+[2020.01.19-06.14.08:136][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2020.01.19-06.14.08:137][617]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.031
+[2020.01.19-06.24.08:803][408]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2020.01.19-06.24.08:804][408]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.035
+[2020.01.19-06.31.10:670][782]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.01.19-06.31.10:670][782]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.01.19-06.31.13:579][934]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.01.19-06.31.31:831][181]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.01.19-06.31.31:831][181]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.01.19-06.31.55:999][562]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.01.19-06.33.16:158][957]Candidate modules for hot reload:
+[2020.01.19-06.33.16:158][957]  ModernGladiator
+[2020.01.19-06.33.16:158][957]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ModernGladiator,4064 Win64 Development -TargetType=Editor -Project="D:/lesupermomo/git2/Modern_Gladiator/ModernGladiator/ModernGladiator.uproject" "D:/lesupermomo/git2/Modern_Gladiator/ModernGladiator/ModernGladiator.uproject"  -IgnoreJunk]
+[2020.01.19-06.33.28:863][957]CompilerResultsLog: New page: Compilation - Jan 18, 2020, 8:33:28 PM
+[2020.01.19-06.33.28:863][957]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\lesupermomo\git2\Modern_Gladiator).
+[2020.01.19-06.33.28:863][957]CompilerResultsLog: Invalidating makefile for ModernGladiatorEditor (directory added)
+[2020.01.19-06.33.28:863][957]CompilerResultsLog: Parsing headers for ModernGladiatorEditor
+[2020.01.19-06.33.28:863][957]CompilerResultsLog:   Running UnrealHeaderTool "D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\ModernGladiator.uproject" "D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\ModernGladiatorEditor\Development\ModernGladiatorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.01.19-06.33.28:863][957]CompilerResultsLog: Reflection code generated for ModernGladiatorEditor in 6.5188013 seconds
+[2020.01.19-06.33.28:863][957]CompilerResultsLog: Building ModernGladiatorEditor...
+[2020.01.19-06.33.28:863][957]CompilerResultsLog: Using Visual Studio 2019 14.24.28315 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (D:\Program Files (x86)\Windows Kits\10).
+[2020.01.19-06.33.28:863][957]CompilerResultsLog: [Upgrade]
+[2020.01.19-06.33.28:863][957]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.01.19-06.33.28:863][957]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.01.19-06.33.28:863][957]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.01.19-06.33.28:863][957]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.01.19-06.33.28:863][957]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in ModernGladiatorEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.01.19-06.33.28:863][957]CompilerResultsLog: [Upgrade]
+[2020.01.19-06.33.28:863][957]CompilerResultsLog: Building 11 actions with 12 processes...
+[2020.01.19-06.33.28:863][957]CompilerResultsLog:   [1/11] InteractInterface.cpp
+[2020.01.19-06.33.28:863][957]CompilerResultsLog:   [2/11] ModernGladiator.cpp
+[2020.01.19-06.33.28:863][957]CompilerResultsLog:   [3/11] ModernGladiator.init.gen.cpp
+[2020.01.19-06.33.28:863][957]CompilerResultsLog:   [4/11] ModernGladiatorGameModeBase.cpp
+[2020.01.19-06.33.28:863][957]CompilerResultsLog:   [5/11] InteractInterface.gen.cpp
+[2020.01.19-06.33.28:863][957]CompilerResultsLog:   [6/11] MyCharacter.gen.cpp
+[2020.01.19-06.33.28:863][957]CompilerResultsLog:   [7/11] ModernGladiatorGameModeBase.gen.cpp
+[2020.01.19-06.33.28:863][957]CompilerResultsLog:   [8/11] MyCharacter.cpp
+[2020.01.19-06.33.28:863][957]CompilerResultsLog:   D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Source\ModernGladiator\Private\Characters\MyCharacter.cpp(27): warning C4996: 'UObject::CreateAbstractDefaultSubobject': CreateAbstract did not work as intended and has been deprecated in favor of CreateDefaultObject Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.01.19-06.33.28:863][957]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/Object.h(145): note: see declaration of 'UObject::CreateAbstractDefaultSubobject'
+[2020.01.19-06.33.28:863][957]CompilerResultsLog:   [9/11] UE4Editor-ModernGladiator-4064.lib
+[2020.01.19-06.33.28:863][957]CompilerResultsLog:      Creating library D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\UE4Editor-ModernGladiator-4064.lib and object D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\UE4Editor-ModernGladiator-4064.exp
+[2020.01.19-06.33.28:863][957]CompilerResultsLog:   [10/11] UE4Editor-ModernGladiator-4064.dll
+[2020.01.19-06.33.28:863][957]CompilerResultsLog:      Creating library D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\UE4Editor-ModernGladiator-4064.suppressed.lib and object D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\UE4Editor-ModernGladiator-4064.suppressed.exp
+[2020.01.19-06.33.28:863][957]CompilerResultsLog:   [11/11] ModernGladiatorEditor.target
+[2020.01.19-06.33.28:863][957]CompilerResultsLog: Total time in Parallel executor: 3.60 seconds
+[2020.01.19-06.33.28:863][957]CompilerResultsLog: Total execution time: 12.47 seconds
+[2020.01.19-06.33.28:863][957]LogMainFrame: MainFrame: Module compiling took 12.717 seconds
+[2020.01.19-06.33.28:897][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.01.19-06.33.28:916][957]LogClass: Could not find existing class InteractInterface in package /Script/ModernGladiator for HotReload, assuming new class
+[2020.01.19-06.33.28:926][957]LogContentBrowser: Native class hierarchy updated for 'ModernGladiator' in 0.0004 seconds. Added 3 classes and 5 folders.
+[2020.01.19-06.33.28:931][957]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.01.19-06.33.29:044][957]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.01.19-06.33.29:063][957]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 3020 classes and 725 folders.
+[2020.01.19-06.33.29:063][957]Display: HotReload took 12.9s.
+[2020.01.19-06.33.29:078][957]Warning: HotReload operation took 12.9s.
+[2020.01.19-06.33.29:358][957]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.01.19-06.33.29:631][957]LogHotReload: New module detected: UE4Editor-ModernGladiator-4064.dll
+[2020.01.19-06.33.29:706][958]LogHotReload: Starting Hot-Reload from IDE
+[2020.01.19-06.33.29:806][958]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2020.01.19-06.33.29:813][958]LogContentBrowser: Native class hierarchy updated for 'ModernGladiator' in 0.0005 seconds. Added 3 classes and 5 folders.
+[2020.01.19-06.33.29:818][958]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.01.19-06.33.29:871][958]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.01.19-06.33.29:886][958]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 3020 classes and 725 folders.
+[2020.01.19-06.33.29:898][958]Display: HotReload took  0.2s.
+[2020.01.19-06.34.23:786][118]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2020.01.19-06.34.23:787][118]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.062
+[2020.01.19-06.37.11:855][620]LogHotReload: New module detected: UE4Editor-ModernGladiator-0023.dll
+[2020.01.19-06.37.13:215][625]LogHotReload: Starting Hot-Reload from IDE
+[2020.01.19-06.37.13:291][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.01.19-06.37.13:307][625]LogClass: Could not find existing class InteractInterface in package /Script/ModernGladiator for HotReload, assuming new class
+[2020.01.19-06.37.13:307][625]LogClass: Function EndFocus is new.
+[2020.01.19-06.37.13:307][625]LogClass: Function OnInteract is new.
+[2020.01.19-06.37.13:307][625]LogClass: Function StartFocus is new.
+[2020.01.19-06.37.13:316][625]LogHotReload: Re-instancing InteractInterface after hot-reload.
+[2020.01.19-06.37.13:472][625]LogContentBrowser: Native class hierarchy updated for 'ModernGladiator' in 0.0004 seconds. Added 3 classes and 5 folders.
+[2020.01.19-06.37.13:476][625]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.01.19-06.37.13:560][625]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.01.19-06.37.13:576][625]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 3020 classes and 725 folders.
+[2020.01.19-06.37.13:586][625]Display: HotReload took  0.4s.
+[2020.01.19-06.38.44:007][528]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.01.19-06.44.24:955][946]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2020.01.19-06.44.24:957][946]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.082
+[2020.01.19-06.44.24:958][946]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Character] ([1] browsable assets)...
+[2020.01.19-06.44.24:985][946]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Character.BP_Character]
+[2020.01.19-06.44.24:985][946]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Character]
+[2020.01.19-06.44.25:010][946]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/BP_Character_Auto201E4949349FF61D5CF919584F3505B44.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/Autosaves/Game/Blueprints/BP_Character_Auto2.uasset'
+[2020.01.19-06.44.25:011][946]LogFileHelpers: Auto-saving content packages took 0.054
+[2020.01.19-06.49.00:652][577]LogHotReload: New module detected: UE4Editor-ModernGladiator-0024.dll
+[2020.01.19-06.49.01:683][581]LogHotReload: Starting Hot-Reload from IDE
+[2020.01.19-06.49.01:776][581]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2020.01.19-06.49.01:803][581]LogContentBrowser: Native class hierarchy updated for 'ModernGladiator' in 0.0004 seconds. Added 3 classes and 5 folders.
+[2020.01.19-06.49.01:807][581]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2020.01.19-06.49.01:915][581]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.01.19-06.49.01:929][581]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 3020 classes and 725 folders.
+[2020.01.19-06.49.01:939][581]Display: HotReload took  0.3s.
+[2020.01.19-06.51.28:763][259]LogSlate: Window 'Message' being destroyed
+[2020.01.19-06.54.25:849][813]LogUObjectHash: Compacting FUObjectHashTables data took   4.98ms
+[2020.01.19-06.54.25:851][813]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.078
+[2020.01.19-06.54.25:851][813]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Character] ([1] browsable assets)...
+[2020.01.19-06.54.25:879][813]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Character.BP_Character]
+[2020.01.19-06.54.25:879][813]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Character]
+[2020.01.19-06.54.25:898][813]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/BP_Character_Auto39C6FF2DB45E503E916C1EA9ADA83ED1B.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/Autosaves/Game/Blueprints/BP_Character_Auto3.uasset'
+[2020.01.19-06.54.25:899][813]LogFileHelpers: Auto-saving content packages took 0.048
+[2020.01.19-07.01.21:811][ 55]LogHotReload: New module detected: UE4Editor-ModernGladiator-0025.dll
+[2020.01.19-07.01.22:842][ 59]LogHotReload: Starting Hot-Reload from IDE
+[2020.01.19-07.01.22:944][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.01.19-07.01.22:957][ 59]LogClass: Could not find existing class InteractInterface in package /Script/ModernGladiator for HotReload, assuming new class
+[2020.01.19-07.01.22:960][ 59]LogClass: Could not find existing class MyCharacter in package /Script/ModernGladiator for HotReload, assuming new class
+[2020.01.19-07.01.22:960][ 59]LogClass: Function TraceForward is new.
+[2020.01.19-07.01.22:966][ 59]LogHotReload: Re-instancing InteractInterface after hot-reload.
+[2020.01.19-07.01.23:146][ 59]LogHotReload: Re-instancing MyCharacter after hot-reload.
+[2020.01.19-07.01.23:500][ 59]LogContentBrowser: Native class hierarchy updated for 'ModernGladiator' in 0.0004 seconds. Added 3 classes and 5 folders.
+[2020.01.19-07.01.23:504][ 59]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.01.19-07.01.23:603][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2020.01.19-07.01.23:616][ 59]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 3020 classes and 725 folders.
+[2020.01.19-07.01.23:627][ 59]Display: HotReload took  0.8s.
+[2020.01.19-07.02.06:239][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.01.19-07.02.06:312][726]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2020.01.19-07.02.06:332][726]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/Main1C4904464745A65BF39B089B97569CC2.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Maps/Main.umap'
+[2020.01.19-07.02.06:353][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2020.01.19-07.02.06:486][726]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/Main_BuiltData0D38616A41A2556519FBA7B8DAFA2B0F.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Maps/Main_BuiltData.uasset'
+[2020.01.19-07.02.06:507][726]AssetCheck: New page: Asset Save: multiple assets
+[2020.01.19-07.02.06:507][726]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2020.01.19-07.02.06:507][726]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2020.01.19-07.02.08:002][803]MapCheck: New page: Map Check
+[2020.01.19-07.02.08:023][803]Cmd: MAP REBUILD ALLVISIBLE
+[2020.01.19-07.02.08:023][803]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.01.19-07.02.08:088][803]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=false
+[2020.01.19-07.02.08:149][803]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2020.01.19-07.02.08:157][803]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.01.19-07.02.08:169][803]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2020.01.19-07.02.08:169][803]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2020.01.19-07.02.08:169][803]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.01.19-07.02.08:181][803]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.01.19-07.02.08:629][803]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2020.01.19-07.02.08:629][803]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2020.01.19-07.02.08:629][803]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2020.01.19-07.02.08:629][803]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2020.01.19-07.02.08:629][803]TextureStreamingBuild: Display: Compiling optional shaders took 0.479 seconds.
+[2020.01.19-07.02.08:636][803]LogLevel: Display: Export Material TexCoord Scales took 0.007 seconds.
+[2020.01.19-07.02.08:646][803]TextureStreamingBuild: Display: Build Texture Streaming took 0.009 seconds.
+[2020.01.19-07.02.08:701][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.01.19-07.02.08:703][803]LightingResults: New page: Lighting Build - Jan 18, 2020, 9:02:08 PM
+[2020.01.19-07.02.08:712][803]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.01.19-07.02.08:716][803]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.01.19-07.02.08:717][803]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.01.19-07.02.08:718][803]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.01.19-07.02.08:719][803]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20312
+[2020.01.19-07.02.13:369][803]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.01.19-07.02.13:369][803]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.01.19-07.02.13:369][803]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.01.19-07.02.13:369][803]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.01.19-07.02.13:369][803]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.01.19-07.02.13:369][803]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.01.19-07.02.13:553][803]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.01.19-07.02.13:553][803]MapCheck: New page: Main - Jan 18, 2020, 9:02:13 PM
+[2020.01.19-07.02.13:553][803]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.247ms to complete.
+[2020.01.19-07.02.13:555][803]LogEditorBuildUtils: Build time 0:05
+[2020.01.19-07.02.13:950][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2020.01.19-07.02.15:583][849]Job is a success!
+[2020.01.19-07.02.15:827][850]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.020s
+[2020.01.19-07.02.15:827][850]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2020.01.19-07.02.15:827][850]LogVolumetricLightmapImport:      BrickData (all levels) 0.4Mb
+[2020.01.19-07.02.15:827][850]LogVolumetricLightmapImport:      Bricks at depth
+[2020.01.19-07.02.15:827][850]LogVolumetricLightmapImport:          0: 1.3% covering 100.0% of volume
+[2020.01.19-07.02.15:827][850]LogVolumetricLightmapImport:          1: 5.0% covering 6.3% of volume
+[2020.01.19-07.02.15:827][850]LogVolumetricLightmapImport:          2: 93.8% covering 1.8% of volume
+[2020.01.19-07.02.15:827][850]LogVolumetricLightmapImport:      Bricks in each level
+[2020.01.19-07.02.15:827][850]LogVolumetricLightmapImport:          Main 			 80 bricks 	 100.0% (Persistent Level)
+[2020.01.19-07.02.15:895][850]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2020.01.19-07.02.15:895][850]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2020.01.19-07.02.15:895][850]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2020.01.19-07.02.15:895][850]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2020.01.19-07.02.15:895][850]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2020.01.19-07.02.15:895][850]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 512X128)
+[2020.01.19-07.02.15:895][850]LogStaticLightingSystem: Main_BuiltData storing lightmap data for 12 meshes in 3 LightmapResourceClusters (4.0 Meshes per cluster).
+[2020.01.19-07.02.15:932][850]Lightmass on DESKTOP-9VH3JGO: 1.13 sec total, 104 ms importing, 5 ms setup, 126 ms photons, 881 ms processing, 0 ms extra exporting [12/12 mappings]. Threads: 9.67 sec total, 802 ms processing.
+[2020.01.19-07.02.15:935][850]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.01.19-07.02.16:001][850]LogStaticLightingSystem: Illumination: 7.19 sec (45 ms encoding lightmaps, 13 ms encoding shadowmaps)
+[2020.01.19-07.02.16:001][850]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 4 textures
+[2020.01.19-07.02.16:001][850]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2020.01.19-07.02.16:383][850]DumpUnbuiltLightIteractions
+[2020.01.19-07.02.16:383][850]Lights with unbuilt interactions: 0
+[2020.01.19-07.02.16:383][850]
+[2020.01.19-07.02.16:383][850]Primitives with unbuilt interactions: 0
+[2020.01.19-07.02.16:582][851]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.01.19-07.02.16:582][851]MapCheck: New page: Main - Jan 18, 2020, 9:02:16 PM
+[2020.01.19-07.02.16:582][851]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.222ms to complete.
+[2020.01.19-07.02.21:345][129]BlueprintLog: New page: Compile BP_Character
+[2020.01.19-07.02.21:551][129]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.01.19-07.02.22:913][204]BlueprintLog: New page: Compile BP_Character
+[2020.01.19-07.02.23:117][204]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms

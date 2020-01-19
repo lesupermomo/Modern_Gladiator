@@ -530,6 +530,7 @@
 /I D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Source\ModernGladiator\Public
 /I D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Source\ModernGladiator
 /I D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Source\ModernGladiator\Public\Characters
+/I D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Source\ModernGladiator\Public\Interact
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
