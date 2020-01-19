@@ -2,6 +2,8 @@
 
 
 #include "..\..\Public\Interact\MyInteractable.h"
+//#include "EngineMinimal.h"
+#include "Engine.h"
 
 // Sets default values
 AMyInteractable::AMyInteractable()
@@ -33,13 +35,13 @@ void AMyInteractable::OnInteract_Implementation(AActor* Caller)
 
 void AMyInteractable::StartFocus_Implementation()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 15, FColor::Orange, TEXT("Started Focus"));
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Orange, TEXT("Started Focus"));
 }
 
 
 void AMyInteractable::EndFocus_Implementation()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 15, FColor::Green, TEXT("Ended Focus"));
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Green, TEXT("Ended Focus"));
 }
 
 

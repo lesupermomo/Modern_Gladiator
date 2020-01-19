@@ -1,7 +1,7 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\lesupermomo\git2\Modern_Gladiator).
   Parsing headers for ModernGladiatorEditor
     Running UnrealHeaderTool "D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\ModernGladiator.uproject" "D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\ModernGladiatorEditor\Development\ModernGladiatorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ModernGladiatorEditor in 5.5387032 seconds
+  Reflection code generated for ModernGladiatorEditor in 5.2775337 seconds
   Building ModernGladiatorEditor...
   Using Visual Studio 2019 14.24.28315 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (D:\Program Files (x86)\Windows Kits\10).
   [Upgrade]
@@ -11,13 +11,14 @@
   [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
   [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in ModernGladiatorEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
   [Upgrade]
-  Building 5 actions with 12 processes...
-    [1/5] MyInteractable.cpp
-    [2/5] MyInteractable.gen.cpp
-    [3/5] UE4Editor-ModernGladiator-0032.lib
-       Creating library D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\UE4Editor-ModernGladiator-0032.lib and object D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\UE4Editor-ModernGladiator-0032.exp
-    [4/5] UE4Editor-ModernGladiator-0032.dll
-       Creating library D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\UE4Editor-ModernGladiator-0032.suppressed.lib and object D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\UE4Editor-ModernGladiator-0032.suppressed.exp
-    [5/5] ModernGladiatorEditor.target
-  Total time in Parallel executor: 2.13 seconds
-  Total execution time: 8.59 seconds
+  Building 4 actions with 12 processes...
+    [1/4] MyCharacter.cpp
+D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Source\ModernGladiator\Private\Characters\MyCharacter.cpp(28): warning C4996: 'UObject::CreateAbstractDefaultSubobject': CreateAbstract did not work as intended and has been deprecated in favor of CreateDefaultObject Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/Object.h(145): note: see declaration of 'UObject::CreateAbstractDefaultSubobject'
+    [2/4] UE4Editor-ModernGladiator-0053.lib
+       Creating library D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\UE4Editor-ModernGladiator-0053.lib and object D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\UE4Editor-ModernGladiator-0053.exp
+    [3/4] UE4Editor-ModernGladiator-0053.dll
+       Creating library D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\UE4Editor-ModernGladiator-0053.suppressed.lib and object D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\UE4Editor-ModernGladiator-0053.suppressed.exp
+    [4/4] ModernGladiatorEditor.target
+  Total time in Parallel executor: 2.14 seconds
+  Total execution time: 8.52 seconds
