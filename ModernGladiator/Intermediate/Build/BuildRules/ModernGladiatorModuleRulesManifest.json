@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\lesupermomo\\git2\\ModernGladiator\\Source\\ModernGladiator\\ModernGladiator.Build.cs",
+		"D:\\lesupermomo\\git2\\ModernGladiator\\Source\\ModernGladiator.Target.cs",
+		"D:\\lesupermomo\\git2\\ModernGladiator\\Source\\ModernGladiatorEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.1"
+}

@@ -1,0 +1,9 @@
+D:\lesupermomo\git2\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\Definitions.ModernGladiator.h
+D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\lesupermomo\git2\ModernGladiator\Source\ModernGladiator/ModernGladiatorGameModeBase.h
+D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\lesupermomo\git2\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Inc\ModernGladiator\ModernGladiatorGameModeBase.generated.h

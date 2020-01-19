@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ModernGladiator",
+			"Path": "D:\\lesupermomo\\git2\\ModernGladiator\\Source\\ModernGladiator.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ModernGladiatorEditor",
+			"Path": "D:\\lesupermomo\\git2\\ModernGladiator\\Source\\ModernGladiatorEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
