@@ -8,6 +8,9 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef MODERNGLADIATOR_MyCharacter_generated_h
 #error "MyCharacter.generated.h already included, missing '#pragma once' in MyCharacter.h"
 #endif
@@ -16,6 +19,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_SPARSE_DATA
 #define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_RPC_WRAPPERS \
 	virtual void TraceForward_Implementation(); \
+ \
+	DECLARE_FUNCTION(execOnOverlapBegin) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComponent); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
+		P_GET_UBOOL(Z_Param_bFromSweep); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnOverlapBegin(Z_Param_OverlappedComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execTraceForward) \
 	{ \
@@ -27,6 +44,20 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnOverlapBegin) \
+	{ \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComponent); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
+		P_GET_UBOOL(Z_Param_bFromSweep); \
+		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnOverlapBegin(Z_Param_OverlappedComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execTraceForward) \
 	{ \
@@ -86,7 +117,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacter); \
 	FORCEINLINE static uint32 __PPO__BaseLookUpAtRate() { return STRUCT_OFFSET(AMyCharacter, BaseLookUpAtRate); } \
 	FORCEINLINE static uint32 __PPO__TraceDistance() { return STRUCT_OFFSET(AMyCharacter, TraceDistance); } \
 	FORCEINLINE static uint32 __PPO__MinZ() { return STRUCT_OFFSET(AMyCharacter, MinZ); } \
-	FORCEINLINE static uint32 __PPO__MaxZ() { return STRUCT_OFFSET(AMyCharacter, MaxZ); }
+	FORCEINLINE static uint32 __PPO__MaxZ() { return STRUCT_OFFSET(AMyCharacter, MaxZ); } \
+	FORCEINLINE static uint32 __PPO__DeffaultHealth() { return STRUCT_OFFSET(AMyCharacter, DeffaultHealth); }
 
 
 #define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_15_PROLOG \

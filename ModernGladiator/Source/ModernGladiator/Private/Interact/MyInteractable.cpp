@@ -2,8 +2,9 @@
 
 
 #include "..\..\Public\Interact\MyInteractable.h"
+#include <ModernGladiator\Public\Characters\MyCharacter.h>
 //#include "EngineMinimal.h"
-#include "Engine.h"
+//#include "Engine.h"
 
 // Sets default values
 AMyInteractable::AMyInteractable()
@@ -29,18 +30,25 @@ void AMyInteractable::Tick(float DeltaTime)
 
 void AMyInteractable::OnInteract_Implementation(AActor* Caller)
 {
+	UE_LOG(LogTemp, Error, TEXT("Destroy has been called"));
+	AMyCharacter* player = (AMyCharacter*)Caller;
+	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Black, TEXT("Destroy has been called"));
 	Destroy();//the thing that is being interact with
+	player->ReceiveHealth();
+	
 }
 
 
 void AMyInteractable::StartFocus_Implementation()
 {
+	UE_LOG(LogTemp, Warning, TEXT("StartedFocus! "));
 	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Orange, TEXT("Started Focus"));
 }
 
 
 void AMyInteractable::EndFocus_Implementation()
 {
+	UE_LOG(LogTemp, Warning, TEXT("EndedFocus! "));
 	//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Green, TEXT("Ended Focus"));
 }
 

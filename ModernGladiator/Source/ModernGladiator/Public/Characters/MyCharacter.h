@@ -45,6 +45,7 @@ protected:
 	void TurnAtRate(float Value);
 	void LookUpAtRate(float Value);
 	void InteractPressed();
+	
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Camera")
 		float BaseTurnRate; //turn rate of the camera
@@ -63,11 +64,24 @@ protected:
 		float MinZ;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Camera")
 		float MaxZ;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Health")
+		float DeffaultHealth;
 	// TODO add the min and max for clamping the camera
+
+	UFUNCTION()
+	void OnOverlapBegin(UPrimitiveComponent* OverlappedComponent,AActor* OtherActor,UPrimitiveComponent* OtherComp,
+			int32 OtherBodyIndex,bool bFromSweep,const FHitResult& SweepResult);
 
 public:	
 
+	
+	void ReceiveDamege();
+	void ReceiveHealth();
+	void Die();
 	virtual void Tick(float DeltaTime) override;
+
+	virtual void BeginPlay() override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;

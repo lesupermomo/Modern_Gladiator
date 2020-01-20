@@ -27,7 +27,7 @@ AMyCharacter::AMyCharacter()
 
 	MeshComponent = CreateAbstractDefaultSubobject<UStaticMeshComponent>(TEXT("PlayerMesh"));
 	MeshComponent->SetupAttachment(RootComponent);
-
+	
 	//attaching the camera to the component
 	CameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("CameraComponent"));
 	CameraComponent->SetupAttachment(SpringArmComponent);
@@ -35,6 +35,8 @@ AMyCharacter::AMyCharacter()
 	BaseTurnRate = 45;
 	BaseLookUpAtRate = 45;
 	TraceDistance = 2000;
+
+	DeffaultHealth = 50;
 
 	MinZ = 10;
 	MaxZ = 500;
@@ -45,7 +47,50 @@ AMyCharacter::AMyCharacter()
 	//remember to set this to true and to clamp the camera like so =
 	// num = std::clamp(num,low, high)
 
-void AMyCharacter::Tick(float DeltaTime) 
+void AMyCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+	//Assosiating delegate functions.
+	UE_LOG(LogTemp, Error, TEXT("Starting health is: %f"), DeffaultHealth);
+	MeshComponent->OnComponentBeginOverlap.AddDynamic(this, &AMyCharacter::OnOverlapBegin);
+}
+
+
+/*  HEALTH  */
+void AMyCharacter::ReceiveDamege()
+{
+	if (DeffaultHealth > 25)
+	{
+		DeffaultHealth = DeffaultHealth - 25;
+	}
+	else
+	{
+		Die();
+	}
+	UE_LOG(LogTemp, Error, TEXT("Your health is now  %f"), DeffaultHealth);
+
+}
+
+void AMyCharacter::ReceiveHealth()
+{
+
+	if (DeffaultHealth < 100)
+	{
+		DeffaultHealth = DeffaultHealth + 10;
+	}//else nothing
+	UE_LOG(LogTemp, Error, TEXT("Your health is now  %f"), DeffaultHealth);
+	//UE_LOG(LogTemp, Error, TEXT("Your Health is now: %f", DeffaultHealth));
+}
+
+void AMyCharacter::Die()
+{
+	UE_LOG(LogTemp, Error, TEXT("Your Health is now: %f, you are DEAD"), DeffaultHealth);
+	this->Destroy();
+}
+
+
+
+void AMyCharacter::Tick(float DeltaTime)
 {
 	//Super::Tick(DeltaTime);
 	TraceForward();
@@ -102,17 +147,37 @@ void AMyCharacter::LookUpAtRate(float Value)
 
 void AMyCharacter::InteractPressed()
 {
-	TraceForward();//will call the TraceForward_Implementation
+	// just to get the debugger
+	FVector Location;
+	FRotator Rotation;
+	FHitResult Hit;
+
+	GetController()->GetPlayerViewPoint(Location, Rotation);//view from camera
+
+	FVector Start = Location;
+	FVector End = Start + (Rotation.Vector() * TraceDistance);//tracing forward from our starting point
+
+	FCollisionQueryParams TraceParams;
+	bool bHit = GetWorld()->LineTraceSingleByChannel(Hit, Start, End, ECC_Visibility, TraceParams);
+
+	DrawDebugLine(GetWorld(), Start, End, FColor::Red, false, 2.0f);
+	DrawDebugBox(GetWorld(), Hit.ImpactPoint,FVector (10,10,10) , FColor::Green, false, 2.0f);
+
+	//Actual method
+	
+	//TraceForward();//will call the TraceForward_Implementation //not really needed bc we already call it in tick but that's fine for now
 	if (FocusedActor)//Else do nothing
 	{
 		IInteractInterface* Interface = Cast<IInteractInterface>(FocusedActor);
-		if (Interface)
+		if (Interface)//double check
 		{
-			Interface->Execute_OnInteract(FocusedActor,this);
+			Interface->Execute_OnInteract(FocusedActor,this); //you have to give self on the method
 		}
 	}
 
 }
+
+
 
 void AMyCharacter::TraceForward_Implementation()
 {
@@ -120,7 +185,7 @@ void AMyCharacter::TraceForward_Implementation()
 	FRotator Rotation;
 	FHitResult Hit;
 
-	GetController()->GetPlayerViewPoint(Location, Rotation);
+	GetController()->GetPlayerViewPoint(Location, Rotation);//view from camera
 
 	FVector Start = Location;
 	FVector End = Start + (Rotation.Vector() * TraceDistance);//tracing forward from our starting point
@@ -129,16 +194,32 @@ void AMyCharacter::TraceForward_Implementation()
 	bool bHit= GetWorld()->LineTraceSingleByChannel(Hit, Start, End, ECC_Visibility, TraceParams);
 
 	//DrawDebugLine(GetWorld(), Start, End, FColor::Orange, false, 2.0f);
+	
 
 	if (bHit)//if true
 	{
 		//DrawDebugBox(GetWorld(), Hit.ImpactPoint,FVector (5,5,5) , FColor::Green, false, 2.0f);
-		AActor* Interactable = Hit.GetActor();
+
+		/*
+		Fist we draw a reference to the actor being hit, If we have a new object we are looking at than we stop looking at the other
+		and we Start looking at teh one we have
+
+		If we are looking at something which is not an actor than stop focus.
+		
+
+		Interactable: The thing we are actually looking at
+		FocusedActor: The actor we are updating the focus on and acting on him
+		
+		*/
+
+
+		AActor* Interactable = Hit.GetActor();// Almost everything is an actor.
 	
 		if (Interactable)
 		{
 			if(Interactable!=FocusedActor )
 			{
+				//PART 1: Looking at something else: stop focus and new focus
 				if(FocusedActor)
 				{ 
 					IInteractInterface* Interface = Cast<IInteractInterface>(FocusedActor);
@@ -157,6 +238,7 @@ void AMyCharacter::TraceForward_Implementation()
 		}
 		else
 		{
+			//PART 2: Looking at something empty: stop focus and focus is now empty
 			if (FocusedActor)
 			{
 				IInteractInterface* Interface = Cast<IInteractInterface>(FocusedActor);
@@ -167,6 +249,27 @@ void AMyCharacter::TraceForward_Implementation()
 			}
 			FocusedActor = nullptr;
 		}
+	}
+
+}
+
+//this doesnt work...
+
+void AMyCharacter::OnOverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	/*
+	On the mesh component of the player make sure you set the Collision.CollisionPresets=OverlapAll
+	&& GenerateOverlapEvents=True
+
+	And on the interactable set the CollisionResponses=Overlap (you can also set visibility and cameraBlock)
+	*/
+
+	UE_LOG(LogTemp, Warning, TEXT("Method is called... "));
+	IInteractInterface* Interface = Cast<IInteractInterface>(OtherActor);
+	if (Interface)//double check
+	{
+		//calling the OnInteract on the actor.
+		Interface->Execute_OnInteract(OtherActor, this);
 	}
 
 }
