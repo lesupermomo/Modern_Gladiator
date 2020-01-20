@@ -20,6 +20,22 @@ struct FHitResult;
 #define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_RPC_WRAPPERS \
 	virtual void TraceForward_Implementation(); \
  \
+	DECLARE_FUNCTION(execReceiveHealth) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ReceiveHealth(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execReceiveDamege) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ReceiveDamege(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execOnOverlapBegin) \
 	{ \
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComponent); \
@@ -44,6 +60,22 @@ struct FHitResult;
 
 
 #define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execReceiveHealth) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ReceiveHealth(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execReceiveDamege) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ReceiveDamege(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnOverlapBegin) \
 	{ \
@@ -118,7 +150,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyCharacter); \
 	FORCEINLINE static uint32 __PPO__TraceDistance() { return STRUCT_OFFSET(AMyCharacter, TraceDistance); } \
 	FORCEINLINE static uint32 __PPO__MinZ() { return STRUCT_OFFSET(AMyCharacter, MinZ); } \
 	FORCEINLINE static uint32 __PPO__MaxZ() { return STRUCT_OFFSET(AMyCharacter, MaxZ); } \
-	FORCEINLINE static uint32 __PPO__DeffaultHealth() { return STRUCT_OFFSET(AMyCharacter, DeffaultHealth); }
+	FORCEINLINE static uint32 __PPO__DeffaultHealth() { return STRUCT_OFFSET(AMyCharacter, DeffaultHealth); } \
+	FORCEINLINE static uint32 __PPO__CurrentHealth() { return STRUCT_OFFSET(AMyCharacter, CurrentHealth); }
 
 
 #define ModernGladiator_Source_ModernGladiator_Public_Characters_MyCharacter_h_15_PROLOG \

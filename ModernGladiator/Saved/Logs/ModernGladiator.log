@@ -1840,3 +1840,749 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.20-00.21.35:406][649]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
 [2020.01.20-00.21.35:406][649]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
 [2020.01.20-00.23.30:750][240]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Widgets/WBP_Hud.WBP_Hud
+[2020.01.20-00.27.04:540][841]LogEditorTransaction: Undo Edit Image
+[2020.01.20-00.27.15:919][468]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Engine/EngineResources/WhiteSquareTexture.WhiteSquareTexture
+[2020.01.20-00.27.15:996][468]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.01.20-00.27.30:685][310]LogSlate: Window 'Color Picker' being destroyed
+[2020.01.20-00.27.55:876][784]LogTexture: Display: Building textures: WhiteSquareTexture (AutoDXT, 32X32)
+[2020.01.20-00.27.57:735][860]LogTexture: Display: Building textures: WhiteSquareTexture (AutoDXT, 32X32)
+[2020.01.20-00.28.00:252][ 11]LogTexture: Display: Building textures: WhiteSquareTexture (AutoDXT, 32X32)
+[2020.01.20-00.28.04:686][277]LogTexture: Display: Building textures: WhiteSquareTexture (AutoDXT, 32X32)
+[2020.01.20-00.28.07:852][467]LogTexture: Display: Building textures: WhiteSquareTexture (AutoDXT, 32X32)
+[2020.01.20-00.28.09:469][564]LogTexture: Display: Building textures: WhiteSquareTexture (AutoDXT, 32X32)
+[2020.01.20-00.28.13:302][794]LogTexture: Display: Building textures: WhiteSquareTexture (AutoDXT, 32X32)
+[2020.01.20-00.28.15:935][952]LogTexture: Display: Building textures: WhiteSquareTexture (AutoDXT, 32X32)
+[2020.01.20-00.28.17:019][ 17]LogTexture: Display: Building textures: WhiteSquareTexture (AutoDXT, 32X32)
+[2020.01.20-00.28.18:766][121]LogTexture: Display: Building textures: WhiteSquareTexture (AutoDXT, 32X32)
+[2020.01.20-00.28.26:549][588]LogTexture: Display: Building textures: WhiteSquareTexture (AutoDXT, 32X32)
+[2020.01.20-00.28.28:183][686]LogTexture: Display: Building textures: WhiteSquareTexture (AutoDXT, 32X32)
+[2020.01.20-00.28.33:182][986]LogTexture: Display: Building textures: WhiteSquareTexture (AutoDXT, 32X32)
+[2020.01.20-00.28.38:499][305]LogTexture: Display: Building textures: WhiteSquareTexture (AutoDXT, 32X32)
+[2020.01.20-00.28.39:755][380]LogTexture: Display: Building textures: WhiteSquareTexture (AutoDXT, 32X32)
+[2020.01.20-00.28.48:638][913]LogTexture: Display: Building textures: WhiteSquareTexture (AutoDXT, 32X32)
+[2020.01.20-00.28.56:024][352]LogSlate: Window 'Color Picker' being destroyed
+[2020.01.20-00.28.59:844][571]LogSlate: Window 'Color Picker' being destroyed
+[2020.01.20-00.29.02:051][699]LogSlate: Window 'Color Picker' being destroyed
+[2020.01.20-00.29.17:547][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineResources/WhiteSquareTexture" FILE="../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" SILENT=true
+[2020.01.20-00.29.17:555][601]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/WhiteSquareTexture4F35FCF84DCCF7D587277EA0F69B1CC9.tmp' to '../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset'
+[2020.01.20-00.29.17:555][601]LogFileManager: Warning: DeleteFile was unable to delete '../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset', retrying in .5s...
+[2020.01.20-00.29.18:056][601]LogFileManager: Error: Error deleting file '../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset'.
+[2020.01.20-00.29.18:056][601]LogSavePackage: Error: Error saving '../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset'
+[2020.01.20-00.29.19:498][601]LogSlate: Window 'Message' being destroyed
+[2020.01.20-00.29.19:503][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineResources/WhiteSquareTexture" FILE="../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" SILENT=true
+[2020.01.20-00.29.19:528][601]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/WhiteSquareTexture8EA41FE643D7B39A4071DB9BB8ADED1F.tmp' to '../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset'
+[2020.01.20-00.29.19:528][601]LogFileManager: Warning: DeleteFile was unable to delete '../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset', retrying in .5s...
+[2020.01.20-00.29.20:030][601]LogFileManager: Error: Error deleting file '../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset'.
+[2020.01.20-00.29.20:030][601]LogSavePackage: Error: Error saving '../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset'
+[2020.01.20-00.29.21:650][601]LogSlate: Window 'Message' being destroyed
+[2020.01.20-00.29.21:694][601]EditorErrors: New page: Save Output
+[2020.01.20-00.29.21:694][601]EditorErrors: Warning: Error saving '../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset'
+[2020.01.20-00.29.21:694][601]EditorErrors: Warning: Error saving '../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset'
+[2020.01.20-00.29.25:125][796]LogSlate: Window 'Message Log' being destroyed
+[2020.01.20-00.29.25:129][796]LogSlate: Window 'Message Log' being destroyed
+[2020.01.20-00.29.39:927][644]LogMaterial: Display: Missing cached shader map for material WidgetMaterial_X, compiling. 
+[2020.01.20-00.29.40:005][645]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 16
+[2020.01.20-00.29.40:005][645]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2020.01.20-00.29.40:005][645]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2020.01.20-00.29.40:005][645]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 7
+[2020.01.20-00.29.40:005][645]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.01.20-00.29.40:005][645]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2020.01.20-00.31.13:425][299]LogSlate: Window 'Color Picker' being destroyed
+[2020.01.20-00.31.41:815][930]LogUObjectHash: Compacting FUObjectHashTables data took   6.63ms
+[2020.01.20-00.31.41:817][930]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.108
+[2020.01.20-00.31.41:818][930]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Engine/EngineResources/WhiteSquareTexture] ([1] browsable assets)...
+[2020.01.20-00.31.41:818][930]OBJ SavePackage: Finished generating thumbnails for package [/Engine/EngineResources/WhiteSquareTexture]
+[2020.01.20-00.31.41:823][930]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/WhiteSquareTexture_Auto290DF48044E162DE1F8C1D4A83E93CA75.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/Autosaves/Engine/EngineResources/WhiteSquareTexture_Auto2.uasset'
+[2020.01.20-00.31.41:830][930]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/EditorMaterials/WidgetMaterial_X] ([1] browsable assets)...
+[2020.01.20-00.31.41:840][930]OBJ SavePackage:     Rendered thumbnail for [Material /Engine/EditorMaterials/WidgetMaterial_X.WidgetMaterial_X]
+[2020.01.20-00.31.41:840][930]OBJ SavePackage: Finished generating thumbnails for package [/Engine/EditorMaterials/WidgetMaterial_X]
+[2020.01.20-00.31.41:854][930]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/WidgetMaterial_X_Auto23C92B7154D43183EEB166195FA30224F.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/Autosaves/Engine/EditorMaterials/WidgetMaterial_X_Auto2.uasset'
+[2020.01.20-00.31.41:856][930]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Widgets/WBP_Hud] ([1] browsable assets)...
+[2020.01.20-00.31.41:856][930]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Widgets/WBP_Hud]
+[2020.01.20-00.31.41:863][930]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/WBP_Hud_Auto20750BC0C4AFEC360DC3738AB7ECE68CC.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/Autosaves/Game/Blueprints/Widgets/WBP_Hud_Auto2.uasset'
+[2020.01.20-00.31.41:864][930]LogFileHelpers: Auto-saving content packages took 0.047
+[2020.01.20-00.31.50:184][421]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_Hud" FILE="../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Blueprints/Widgets/WBP_Hud.uasset" SILENT=true
+[2020.01.20-00.31.50:192][421]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/WBP_Hud428205A8477CCD5859CBFE97EBB07BF3.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Blueprints/Widgets/WBP_Hud.uasset'
+[2020.01.20-00.31.50:207][421]AssetCheck: New page: Asset Save: WBP_Hud
+[2020.01.20-00.31.50:207][421]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_Hud.WBP_Hud
+[2020.01.20-00.33.00:685][236]BlueprintLog: New page: Compile WBP_Hud
+[2020.01.20-00.33.01:110][236]LogUObjectHash: Compacting FUObjectHashTables data took   5.78ms
+[2020.01.20-00.33.02:121][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_Hud" FILE="../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Blueprints/Widgets/WBP_Hud.uasset" SILENT=true
+[2020.01.20-00.33.02:131][289]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/WBP_Hud44B1A9064C9DD61E907E87AD781F51FC.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Blueprints/Widgets/WBP_Hud.uasset'
+[2020.01.20-00.33.02:148][289]AssetCheck: New page: Asset Save: WBP_Hud
+[2020.01.20-00.33.02:148][289]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_Hud.WBP_Hud
+[2020.01.20-00.36.56:164][569]LogHotReload: New module detected: UE4Editor-ModernGladiator-0044.dll
+[2020.01.20-00.39.34:757][ 42]LogHotReload: New module detected: UE4Editor-ModernGladiator-0045.dll
+[2020.01.20-00.39.36:120][ 47]LogHotReload: Starting Hot-Reload from IDE
+[2020.01.20-00.39.36:213][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   7.65ms
+[2020.01.20-00.39.36:241][ 47]LogClass: Could not find existing class MyCharacter in package /Script/ModernGladiator for HotReload, assuming new class
+[2020.01.20-00.39.36:241][ 47]LogClass: Function OnOverlapBegin is new.
+[2020.01.20-00.39.36:241][ 47]LogClass: Function ReceiveDamege is new.
+[2020.01.20-00.39.36:241][ 47]LogClass: Function ReceiveHealth is new.
+[2020.01.20-00.39.36:241][ 47]LogClass: Function TraceForward is new.
+[2020.01.20-00.39.36:257][ 47]LogHotReload: Re-instancing MyCharacter after hot-reload.
+[2020.01.20-00.39.36:873][ 47]LogContentBrowser: Native class hierarchy updated for 'ModernGladiator' in 0.0005 seconds. Added 4 classes and 5 folders.
+[2020.01.20-00.39.36:879][ 47]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2020.01.20-00.39.37:023][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   5.17ms
+[2020.01.20-00.39.37:037][ 47]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 3022 classes and 727 folders.
+[2020.01.20-00.39.37:047][ 47]Display: HotReload took  0.9s.
+[2020.01.20-00.39.41:200][156]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.20-00.39.41:227][156]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.01.20-00.39.41:227][156]LogPlayLevel: [PlayLevel] Compiling WBP_Hud before play...
+[2020.01.20-00.39.42:719][156]LogUObjectHash: Compacting FUObjectHashTables data took   6.11ms
+[2020.01.20-00.39.42:719][156]LogPlayLevel: PlayLevel: Blueprint regeneration took 1492 ms (1 blueprints)
+[2020.01.20-00.39.42:719][156]PIE: New page: PIE session: Main (Jan 19, 2020, 2:39:42 PM)
+[2020.01.20-00.39.42:719][156]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.01.20-00.39.42:721][156]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002304s)
+[2020.01.20-00.39.42:722][156]LogAIModule: Creating AISystem for world Main
+[2020.01.20-00.39.42:723][156]LogPlayLevel: PIE: World Init took: (0.001068s)
+[2020.01.20-00.39.42:723][156]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003483s)
+[2020.01.20-00.39.42:784][156]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2020.01.20-00.39.42:784][156]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.20-00.39.42:784][156]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.20-00.39.42:784][156]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.20-00.39.42:784][156]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.20-00.39.42:784][156]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.20-00.39.42:784][156]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.20-00.39.42:784][156]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.20-00.39.42:784][156]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.20-00.39.42:785][156]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.20-00.39.42:785][156]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.20-00.39.42:798][156]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.20-00.39.42:798][156]LogAudioMixer: Display: Name: Speakers/Headphones (Realtek(R) Audio)
+[2020.01.20-00.39.42:798][156]LogAudioMixer: Display: Is Default: Yes
+[2020.01.20-00.39.42:798][156]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.20-00.39.42:798][156]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.20-00.39.42:798][156]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.20-00.39.42:798][156]LogAudioMixer: Display: Channel Order:
+[2020.01.20-00.39.42:798][156]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.20-00.39.42:798][156]LogAudioMixer: Display: 1: FrontRight
+[2020.01.20-00.39.42:885][156]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2020.01.20-00.39.42:887][156]LogInit: FAudioDevice initialized.
+[2020.01.20-00.39.42:940][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.20-00.39.42:940][156]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.01.20-00.39.42:942][156]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.01.19-19.39.42
+[2020.01.20-00.39.42:942][156]LogWorld: Bringing up level for play took: 0.001145
+[2020.01.20-00.39.42:943][156]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.01.20-00.39.42:946][156]LogTemp: Error: Starting health is: 50.000000
+[2020.01.20-00.39.42:947][156]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main 2.73
+[2020.01.20-00.39.43:011][157]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
+[2020.01.20-00.39.44:703][254]LogTemp: Warning: StartedFocus! 
+[2020.01.20-00.39.45:138][280]LogTemp: Error: Destroy has been called
+[2020.01.20-00.39.45:138][280]LogTemp: Error: Your health is now  60.000000
+[2020.01.20-00.39.46:321][351]LogTemp: Warning: StartedFocus! 
+[2020.01.20-00.39.46:639][370]LogTemp: Error: Destroy has been called
+[2020.01.20-00.39.46:639][370]LogTemp: Error: Your health is now  70.000000
+[2020.01.20-00.39.47:004][392]LogTemp: Warning: StartedFocus! 
+[2020.01.20-00.39.47:122][399]LogTemp: Error: Destroy has been called
+[2020.01.20-00.39.47:122][399]LogTemp: Error: Your health is now  80.000000
+[2020.01.20-00.39.48:104][458]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-00.39.48:104][458]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-00.39.48:105][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.20-00.39.48:105][458]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.01.20-00.39.48:115][458]LogSlate: Window 'ModernGladiator Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.01.20-00.39.48:122][458]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-00.39.48:122][458]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.01.20-00.39.48:123][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.20-00.39.48:133][458]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.20-00.39.48:140][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.20-00.39.48:182][458]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-00.39.48:191][458]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2020.01.20-00.39.48:205][459]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.01.20-00.42.22:385][579]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2020.01.20-00.42.22:386][579]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.048
+[2020.01.20-00.42.22:386][579]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Widgets/WBP_Hud] ([1] browsable assets)...
+[2020.01.20-00.42.22:386][579]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Widgets/WBP_Hud]
+[2020.01.20-00.42.22:398][579]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/WBP_Hud_Auto38B7373F342AEFE51B7533F84BAED898B.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/Autosaves/Game/Blueprints/Widgets/WBP_Hud_Auto3.uasset'
+[2020.01.20-00.42.22:399][579]LogFileHelpers: Auto-saving content packages took 0.012
+[2020.01.20-00.45.33:996][810]LogHotReload: New module detected: UE4Editor-ModernGladiator-0046.dll
+[2020.01.20-00.45.35:357][815]LogHotReload: Starting Hot-Reload from IDE
+[2020.01.20-00.45.35:431][815]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.01.20-00.45.35:469][815]LogContentBrowser: Native class hierarchy updated for 'ModernGladiator' in 0.0005 seconds. Added 4 classes and 5 folders.
+[2020.01.20-00.45.35:476][815]Display: HotReload successful (10 functions remapped  0 scriptstructs remapped)
+[2020.01.20-00.45.35:620][815]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.01.20-00.45.35:635][815]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 3022 classes and 727 folders.
+[2020.01.20-00.45.35:645][815]Display: HotReload took  0.3s.
+[2020.01.20-00.52.38:442][634]LogHotReload: New module detected: UE4Editor-ModernGladiator-0047.dll
+[2020.01.20-00.52.39:811][639]LogHotReload: Starting Hot-Reload from IDE
+[2020.01.20-00.52.39:921][639]LogUObjectHash: Compacting FUObjectHashTables data took   6.93ms
+[2020.01.20-00.52.39:942][639]LogClass: Could not find existing class MyCharacter in package /Script/ModernGladiator for HotReload, assuming new class
+[2020.01.20-00.52.39:943][639]LogClass: Function OnOverlapBegin is new.
+[2020.01.20-00.52.39:943][639]LogClass: Function ReceiveDamege is new.
+[2020.01.20-00.52.39:943][639]LogClass: Function ReceiveHealth is new.
+[2020.01.20-00.52.39:943][639]LogClass: Function TraceForward is new.
+[2020.01.20-00.52.39:955][639]LogHotReload: Re-instancing MyCharacter after hot-reload.
+[2020.01.20-00.52.40:558][639]LogContentBrowser: Native class hierarchy updated for 'ModernGladiator' in 0.0005 seconds. Added 4 classes and 5 folders.
+[2020.01.20-00.52.40:565][639]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2020.01.20-00.52.40:748][639]LogUObjectHash: Compacting FUObjectHashTables data took   5.79ms
+[2020.01.20-00.52.40:762][639]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 3022 classes and 727 folders.
+[2020.01.20-00.52.40:772][639]Display: HotReload took  1.0s.
+[2020.01.20-00.54.56:343][ 90]LogEditorTransaction: Undo Create Pin Link
+[2020.01.20-00.55.20:820][517]LogUObjectHash: Compacting FUObjectHashTables data took   6.54ms
+[2020.01.20-00.55.20:821][517]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.087
+[2020.01.20-00.55.20:821][517]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Character] ([1] browsable assets)...
+[2020.01.20-00.55.20:864][517]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Character.BP_Character]
+[2020.01.20-00.55.20:864][517]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Character]
+[2020.01.20-00.55.20:887][517]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/BP_Character_Auto455821A054E466C9E1723C689E28784EC.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/Autosaves/Game/Blueprints/BP_Character_Auto4.uasset'
+[2020.01.20-00.55.20:888][517]LogFileHelpers: Auto-saving content packages took 0.068
+[2020.01.20-01.05.21:238][736]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
+[2020.01.20-01.05.21:240][736]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.071
+[2020.01.20-01.05.21:240][736]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Character] ([1] browsable assets)...
+[2020.01.20-01.05.21:267][736]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Character.BP_Character]
+[2020.01.20-01.05.21:267][736]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Character]
+[2020.01.20-01.05.21:667][736]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/BP_Character_Auto5E030178646E27C899480E4A7385A21E5.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/Autosaves/Game/Blueprints/BP_Character_Auto5.uasset'
+[2020.01.20-01.05.21:669][736]LogFileHelpers: Auto-saving content packages took 0.430
+[2020.01.20-01.08.50:639][782]LogRenderer: Reallocating scene render targets to support 1024x680 Format 10 NumSamples 1 (Frame:1).
+[2020.01.20-01.12.48:997][569]LogEditorTransaction: Undo Add Node
+[2020.01.20-01.12.51:374][694]LogEditorTransaction: Redo Add Node
+[2020.01.20-01.13.09:618][361]BlueprintLog: New page: Compile BP_Character
+[2020.01.20-01.13.09:950][361]LogUObjectHash: Compacting FUObjectHashTables data took   6.29ms
+[2020.01.20-01.13.11:148][432]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.20-01.13.11:177][432]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.01.20-01.13.11:180][432]LogPlayLevel: [PlayLevel] Compiling WBP_Hud before play...
+[2020.01.20-01.13.11:518][432]LogUObjectHash: Compacting FUObjectHashTables data took   6.15ms
+[2020.01.20-01.13.11:518][432]LogPlayLevel: PlayLevel: Blueprint regeneration took 341 ms (1 blueprints)
+[2020.01.20-01.13.11:518][432]PIE: New page: PIE session: Main (Jan 19, 2020, 3:13:11 PM)
+[2020.01.20-01.13.11:518][432]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.01.20-01.13.11:521][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002317s)
+[2020.01.20-01.13.11:521][432]LogAIModule: Creating AISystem for world Main
+[2020.01.20-01.13.11:521][432]LogPlayLevel: PIE: World Init took: (0.000909s)
+[2020.01.20-01.13.11:522][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003350s)
+[2020.01.20-01.13.11:569][432]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2020.01.20-01.13.11:570][432]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.20-01.13.11:570][432]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.20-01.13.11:570][432]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.20-01.13.11:570][432]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.20-01.13.11:570][432]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.20-01.13.11:570][432]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.20-01.13.11:570][432]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.20-01.13.11:570][432]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.20-01.13.11:570][432]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.20-01.13.11:570][432]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.20-01.13.11:582][432]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.20-01.13.11:582][432]LogAudioMixer: Display: Name: Speakers/Headphones (Realtek(R) Audio)
+[2020.01.20-01.13.11:582][432]LogAudioMixer: Display: Is Default: Yes
+[2020.01.20-01.13.11:582][432]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.20-01.13.11:582][432]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.20-01.13.11:582][432]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.20-01.13.11:582][432]LogAudioMixer: Display: Channel Order:
+[2020.01.20-01.13.11:582][432]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.20-01.13.11:582][432]LogAudioMixer: Display: 1: FrontRight
+[2020.01.20-01.13.11:689][432]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2020.01.20-01.13.11:691][432]LogInit: FAudioDevice initialized.
+[2020.01.20-01.13.11:756][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.20-01.13.11:756][432]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.01.20-01.13.11:758][432]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.01.19-20.13.11
+[2020.01.20-01.13.11:758][432]LogWorld: Bringing up level for play took: 0.001280
+[2020.01.20-01.13.11:758][432]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.01.20-01.13.11:763][432]PIE: Warning: The widget 'WBP_Hud_C' was already added to the screen.
+[2020.01.20-01.13.11:763][432]LogTemp: Error: Starting health is: 50.000000
+[2020.01.20-01.13.11:764][432]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main 1.546
+[2020.01.20-01.13.14:422][587]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.13.14:655][601]LogTemp: Error: Destroy has been called
+[2020.01.20-01.13.14:655][601]LogTemp: Error: Your health is now  60.000000
+[2020.01.20-01.13.15:322][641]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.13.15:656][661]LogTemp: Error: Destroy has been called
+[2020.01.20-01.13.15:656][661]LogTemp: Error: Your health is now  70.000000
+[2020.01.20-01.13.15:989][681]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.13.16:088][687]LogTemp: Warning: EndedFocus! 
+[2020.01.20-01.13.16:389][705]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.13.16:589][717]LogTemp: Error: Destroy has been called
+[2020.01.20-01.13.16:589][717]LogTemp: Error: Your health is now  80.000000
+[2020.01.20-01.13.18:206][814]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.13.18:206][814]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.13.18:206][814]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.20-01.13.18:207][814]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.01.20-01.13.18:217][814]LogSlate: Window 'ModernGladiator Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.01.20-01.13.18:225][814]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.13.18:225][814]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.01.20-01.13.18:225][814]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.20-01.13.18:232][814]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.20-01.13.18:239][814]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.20-01.13.18:283][814]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.13.18:292][814]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2020.01.20-01.13.18:420][815]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.01.20-01.13.28:180][391]LogSlate: Window 'Message Log' being destroyed
+[2020.01.20-01.13.28:186][391]LogSlate: Window 'Message Log' being destroyed
+[2020.01.20-01.15.55:361][547]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2020.01.20-01.15.55:362][547]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.048
+[2020.01.20-01.15.55:363][547]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Character] ([1] browsable assets)...
+[2020.01.20-01.15.55:400][547]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Character.BP_Character]
+[2020.01.20-01.15.55:400][547]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Character]
+[2020.01.20-01.15.55:777][547]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/BP_Character_Auto6F38A88414A5838126834AAA20D2D17DA.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/Autosaves/Game/Blueprints/BP_Character_Auto6.uasset'
+[2020.01.20-01.15.55:780][547]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Widgets/WBP_Hud] ([1] browsable assets)...
+[2020.01.20-01.15.55:780][547]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Widgets/WBP_Hud]
+[2020.01.20-01.15.55:792][547]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/WBP_Hud_Auto6EE94116E4677DF76E533B4A94822D06B.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/Autosaves/Game/Blueprints/Widgets/WBP_Hud_Auto6.uasset'
+[2020.01.20-01.15.55:793][547]LogFileHelpers: Auto-saving content packages took 0.430
+[2020.01.20-01.18.15:056][163]Cmd: TRANSACTION UNDO
+[2020.01.20-01.18.15:056][163]LogEditorTransaction: Undo Add Out Parameter
+[2020.01.20-01.18.15:581][177]LogEditorTransaction: Undo Add Out Parameter
+[2020.01.20-01.19.04:130][666]Cmd: TRANSACTION UNDO
+[2020.01.20-01.19.04:130][666]LogEditorTransaction: Undo Create Reroute Node
+[2020.01.20-01.21.01:557][523]LogEditorTransaction: Undo Move Node
+[2020.01.20-01.21.02:173][542]LogEditorTransaction: Undo Create Pin Link
+[2020.01.20-01.21.02:856][580]LogEditorTransaction: Undo Create Pin Link
+[2020.01.20-01.22.05:969][758]BlueprintLog: New page: Compile WBP_Hud
+[2020.01.20-01.22.06:294][758]LogUObjectHash: Compacting FUObjectHashTables data took   6.16ms
+[2020.01.20-01.22.06:991][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_Hud" FILE="../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Blueprints/Widgets/WBP_Hud.uasset" SILENT=true
+[2020.01.20-01.22.07:005][796]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/WBP_Hud338200CC4C771EEB9F9CE49A398A5895.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Blueprints/Widgets/WBP_Hud.uasset'
+[2020.01.20-01.22.07:025][796]AssetCheck: New page: Asset Save: WBP_Hud
+[2020.01.20-01.22.07:025][796]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_Hud.WBP_Hud
+[2020.01.20-01.25.56:263][627]LogUObjectHash: Compacting FUObjectHashTables data took   6.06ms
+[2020.01.20-01.25.56:264][627]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.054
+[2020.01.20-01.25.56:264][627]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Character] ([1] browsable assets)...
+[2020.01.20-01.25.56:292][627]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Character.BP_Character]
+[2020.01.20-01.25.56:292][627]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Character]
+[2020.01.20-01.25.56:316][627]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/BP_Character_Auto7A7DC3DE448680881814C0798186B890C.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/Autosaves/Game/Blueprints/BP_Character_Auto7.uasset'
+[2020.01.20-01.25.56:318][627]LogFileHelpers: Auto-saving content packages took 0.054
+[2020.01.20-01.26.09:821][741]LogHotReload: New module detected: UE4Editor-ModernGladiator-0048.dll
+[2020.01.20-01.26.11:960][833]LogHotReload: Starting Hot-Reload from IDE
+[2020.01.20-01.26.11:960][833]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.01.20-01.26.12:014][833]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2020.01.20-01.26.12:036][833]LogClass: Could not find existing class MyCharacter in package /Script/ModernGladiator for HotReload, assuming new class
+[2020.01.20-01.26.12:037][833]LogClass: Function OnOverlapBegin is new.
+[2020.01.20-01.26.12:037][833]LogClass: Function ReceiveDamege is new.
+[2020.01.20-01.26.12:037][833]LogClass: Function ReceiveHealth is new.
+[2020.01.20-01.26.12:037][833]LogClass: Function TraceForward is new.
+[2020.01.20-01.26.12:049][833]LogHotReload: Re-instancing MyCharacter after hot-reload.
+[2020.01.20-01.26.12:617][833]LogContentBrowser: Native class hierarchy updated for 'ModernGladiator' in 0.0009 seconds. Added 4 classes and 5 folders.
+[2020.01.20-01.26.12:624][833]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2020.01.20-01.26.12:776][833]LogUObjectHash: Compacting FUObjectHashTables data took   5.31ms
+[2020.01.20-01.26.12:795][833]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 3022 classes and 727 folders.
+[2020.01.20-01.26.12:806][833]Display: HotReload took  0.8s.
+[2020.01.20-01.26.27:786][709]LogEditorTransaction: Undo Add Node
+[2020.01.20-01.27.53:570][615]BlueprintLog: New page: Compile BP_Character
+[2020.01.20-01.27.53:999][615]LogUObjectHash: Compacting FUObjectHashTables data took   6.60ms
+[2020.01.20-01.27.55:847][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Character" FILE="../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Blueprints/BP_Character.uasset" SILENT=true
+[2020.01.20-01.27.55:872][719]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/BP_CharacterCEF3CAF14AB06ABA24A60B873BBBB191.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Blueprints/BP_Character.uasset'
+[2020.01.20-01.27.55:891][719]AssetCheck: New page: Asset Save: BP_Character
+[2020.01.20-01.27.55:891][719]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Character.BP_Character
+[2020.01.20-01.28.22:551][301]Candidate modules for hot reload:
+[2020.01.20-01.28.22:551][301]  ModernGladiator
+[2020.01.20-01.28.22:551][301]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ModernGladiator,4915 Win64 Development -TargetType=Editor -Project="D:/lesupermomo/git2/Modern_Gladiator/ModernGladiator/ModernGladiator.uproject" "D:/lesupermomo/git2/Modern_Gladiator/ModernGladiator/ModernGladiator.uproject"  -IgnoreJunk]
+[2020.01.20-01.28.22:584][301]Warning: Starting HotReload took  0.1s.
+[2020.01.20-01.28.31:346][812]CompilerResultsLog: New page: Compilation - Jan 19, 2020, 3:28:31 PM
+[2020.01.20-01.28.31:346][812]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\lesupermomo\git2\Modern_Gladiator).
+[2020.01.20-01.28.31:346][812]CompilerResultsLog: Parsing headers for ModernGladiatorEditor
+[2020.01.20-01.28.31:346][812]CompilerResultsLog:   Running UnrealHeaderTool "D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\ModernGladiator.uproject" "D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\ModernGladiatorEditor\Development\ModernGladiatorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.01.20-01.28.31:346][812]CompilerResultsLog: Reflection code generated for ModernGladiatorEditor in 6.0030121 seconds
+[2020.01.20-01.28.31:346][812]CompilerResultsLog: Building ModernGladiatorEditor...
+[2020.01.20-01.28.31:346][812]CompilerResultsLog: Using Visual Studio 2019 14.24.28315 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (D:\Program Files (x86)\Windows Kits\10).
+[2020.01.20-01.28.31:346][812]CompilerResultsLog: [Upgrade]
+[2020.01.20-01.28.31:346][812]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.01.20-01.28.31:346][812]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.01.20-01.28.31:346][812]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.01.20-01.28.31:346][812]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.01.20-01.28.31:346][812]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in ModernGladiatorEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.01.20-01.28.31:346][812]CompilerResultsLog: [Upgrade]
+[2020.01.20-01.28.31:346][812]CompilerResultsLog: Building 3 actions with 12 processes...
+[2020.01.20-01.28.31:346][812]CompilerResultsLog:   [1/3] UE4Editor-ModernGladiator-4915.lib
+[2020.01.20-01.28.31:346][812]CompilerResultsLog:      Creating library D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\UE4Editor-ModernGladiator-4915.lib and object D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\UE4Editor-ModernGladiator-4915.exp
+[2020.01.20-01.28.31:346][812]CompilerResultsLog:   [2/3] UE4Editor-ModernGladiator-4915.dll
+[2020.01.20-01.28.31:346][812]CompilerResultsLog:      Creating library D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\UE4Editor-ModernGladiator-4915.suppressed.lib and object D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\UE4Editor-ModernGladiator-4915.suppressed.exp
+[2020.01.20-01.28.31:347][812]CompilerResultsLog:   [3/3] ModernGladiatorEditor.target
+[2020.01.20-01.28.31:347][812]CompilerResultsLog: Total time in Parallel executor: 1.60 seconds
+[2020.01.20-01.28.31:347][812]CompilerResultsLog: Total execution time: 8.64 seconds
+[2020.01.20-01.28.31:347][812]LogMainFrame: MainFrame: Module compiling took 8.807 seconds
+[2020.01.20-01.28.31:422][812]LogUObjectHash: Compacting FUObjectHashTables data took   5.63ms
+[2020.01.20-01.28.31:470][812]LogContentBrowser: Native class hierarchy updated for 'ModernGladiator' in 0.0005 seconds. Added 4 classes and 5 folders.
+[2020.01.20-01.28.31:476][812]Display: HotReload successful (10 functions remapped  0 scriptstructs remapped)
+[2020.01.20-01.28.31:623][812]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.01.20-01.28.31:638][812]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 3022 classes and 727 folders.
+[2020.01.20-01.28.31:638][812]Display: HotReload took  9.1s.
+[2020.01.20-01.28.32:397][840]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.20-01.28.32:423][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.20-01.28.32:423][840]PIE: New page: PIE session: Main (Jan 19, 2020, 3:28:32 PM)
+[2020.01.20-01.28.32:423][840]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.01.20-01.28.32:426][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002412s)
+[2020.01.20-01.28.32:427][840]LogAIModule: Creating AISystem for world Main
+[2020.01.20-01.28.32:427][840]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2020.01.20-01.28.32:427][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003454s)
+[2020.01.20-01.28.32:505][840]LogUObjectHash: Compacting FUObjectHashTables data took   5.78ms
+[2020.01.20-01.28.32:505][840]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.20-01.28.32:505][840]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.20-01.28.32:505][840]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.20-01.28.32:506][840]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.20-01.28.32:506][840]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.20-01.28.32:506][840]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.20-01.28.32:506][840]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.20-01.28.32:506][840]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.20-01.28.32:506][840]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.20-01.28.32:506][840]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.20-01.28.32:518][840]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.20-01.28.32:519][840]LogAudioMixer: Display: Name: Speakers/Headphones (Realtek(R) Audio)
+[2020.01.20-01.28.32:519][840]LogAudioMixer: Display: Is Default: Yes
+[2020.01.20-01.28.32:519][840]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.20-01.28.32:519][840]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.20-01.28.32:519][840]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.20-01.28.32:519][840]LogAudioMixer: Display: Channel Order:
+[2020.01.20-01.28.32:519][840]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.20-01.28.32:519][840]LogAudioMixer: Display: 1: FrontRight
+[2020.01.20-01.28.32:603][840]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2020.01.20-01.28.32:604][840]LogInit: FAudioDevice initialized.
+[2020.01.20-01.28.32:615][840]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.01.20-01.28.32:617][840]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.01.19-20.28.32
+[2020.01.20-01.28.32:617][840]LogWorld: Bringing up level for play took: 0.000705
+[2020.01.20-01.28.32:617][840]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.01.20-01.28.32:620][840]PIE: Warning: The widget 'WBP_Hud_C' was already added to the screen.
+[2020.01.20-01.28.32:620][840]LogTemp: Error: Starting health is: 50.000000
+[2020.01.20-01.28.32:620][840]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.402
+[2020.01.20-01.28.34:398][946]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.28.35:350][  3]LogTemp: Error: Destroy has been called
+[2020.01.20-01.28.35:350][  3]LogTemp: Error: Your health is now  60.000000
+[2020.01.20-01.28.36:616][ 79]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.28.37:067][106]LogTemp: Error: Destroy has been called
+[2020.01.20-01.28.37:067][106]LogTemp: Error: Your health is now  70.000000
+[2020.01.20-01.28.37:250][117]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.28.37:267][118]LogTemp: Warning: EndedFocus! 
+[2020.01.20-01.28.37:499][132]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.28.37:533][134]LogTemp: Warning: EndedFocus! 
+[2020.01.20-01.28.37:982][161]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.28.38:450][189]LogTemp: Error: Destroy has been called
+[2020.01.20-01.28.38:450][189]LogTemp: Error: Your health is now  80.000000
+[2020.01.20-01.28.39:467][250]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.28.39:467][250]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.28.39:467][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.20-01.28.39:467][250]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.01.20-01.28.39:467][250]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.28.39:467][250]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.01.20-01.28.39:468][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.20-01.28.39:476][250]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.20-01.28.39:483][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.20-01.28.39:525][250]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.28.39:529][250]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.20-01.28.39:551][250]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2020.01.20-01.28.39:673][251]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.01.20-01.28.47:939][735]LogSlate: Window 'Message Log' being destroyed
+[2020.01.20-01.28.47:944][735]LogSlate: Window 'Message Log' being destroyed
+[2020.01.20-01.31.16:450][846]LogHotReload: New module detected: UE4Editor-ModernGladiator-0050.dll
+[2020.01.20-01.31.17:479][850]LogHotReload: Starting Hot-Reload from IDE
+[2020.01.20-01.31.17:559][850]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2020.01.20-01.31.17:596][850]LogHotReload: Re-instancing MyCharacter after hot-reload.
+[2020.01.20-01.31.18:157][850]LogContentBrowser: Native class hierarchy updated for 'ModernGladiator' in 0.0004 seconds. Added 4 classes and 5 folders.
+[2020.01.20-01.31.18:164][850]Display: HotReload successful (10 functions remapped  0 scriptstructs remapped)
+[2020.01.20-01.31.18:307][850]LogUObjectHash: Compacting FUObjectHashTables data took   5.30ms
+[2020.01.20-01.31.18:321][850]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 3022 classes and 727 folders.
+[2020.01.20-01.31.18:331][850]Display: HotReload took  0.9s.
+[2020.01.20-01.31.26:516][ 10]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.20-01.31.26:544][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.20-01.31.26:544][ 10]PIE: New page: PIE session: Main (Jan 19, 2020, 3:31:26 PM)
+[2020.01.20-01.31.26:544][ 10]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.01.20-01.31.26:546][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002360s)
+[2020.01.20-01.31.26:547][ 10]LogAIModule: Creating AISystem for world Main
+[2020.01.20-01.31.26:547][ 10]LogPlayLevel: PIE: World Init took: (0.000909s)
+[2020.01.20-01.31.26:547][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003397s)
+[2020.01.20-01.31.26:633][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   5.55ms
+[2020.01.20-01.31.26:633][ 10]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.20-01.31.26:634][ 10]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.20-01.31.26:634][ 10]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.20-01.31.26:634][ 10]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.20-01.31.26:634][ 10]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.20-01.31.26:634][ 10]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.20-01.31.26:634][ 10]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.20-01.31.26:634][ 10]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.20-01.31.26:634][ 10]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.20-01.31.26:634][ 10]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.20-01.31.26:647][ 10]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.20-01.31.26:647][ 10]LogAudioMixer: Display: Name: Speakers/Headphones (Realtek(R) Audio)
+[2020.01.20-01.31.26:647][ 10]LogAudioMixer: Display: Is Default: Yes
+[2020.01.20-01.31.26:647][ 10]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.20-01.31.26:647][ 10]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.20-01.31.26:647][ 10]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.20-01.31.26:647][ 10]LogAudioMixer: Display: Channel Order:
+[2020.01.20-01.31.26:647][ 10]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.20-01.31.26:647][ 10]LogAudioMixer: Display: 1: FrontRight
+[2020.01.20-01.31.26:755][ 10]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2020.01.20-01.31.26:757][ 10]LogInit: FAudioDevice initialized.
+[2020.01.20-01.31.26:762][ 10]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.01.20-01.31.26:764][ 10]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.01.19-20.31.26
+[2020.01.20-01.31.26:764][ 10]LogWorld: Bringing up level for play took: 0.000683
+[2020.01.20-01.31.26:764][ 10]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.01.20-01.31.26:767][ 10]PIE: Warning: The widget 'WBP_Hud_C' was already added to the screen.
+[2020.01.20-01.31.26:767][ 10]LogTemp: Error: Starting health is: 100.000000
+[2020.01.20-01.31.26:767][ 10]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.549
+[2020.01.20-01.31.48:646][284]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.31.48:646][284]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.31.48:647][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.20-01.31.48:647][284]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.01.20-01.31.48:647][284]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.31.48:647][284]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.01.20-01.31.48:647][284]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.20-01.31.48:671][284]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.20-01.31.48:677][284]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.20-01.31.48:720][284]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.31.48:724][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.20-01.31.48:734][284]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2020.01.20-01.31.48:843][285]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.01.20-01.31.51:674][449]LogSlate: Window 'Message Log' being destroyed
+[2020.01.20-01.31.51:683][449]LogSlate: Window 'Message Log' being destroyed
+[2020.01.20-01.31.54:419][611]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.20-01.31.54:439][611]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.20-01.31.54:439][611]PIE: New page: PIE session: Main (Jan 19, 2020, 3:31:54 PM)
+[2020.01.20-01.31.54:439][611]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.01.20-01.31.54:441][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002336s)
+[2020.01.20-01.31.54:442][611]LogAIModule: Creating AISystem for world Main
+[2020.01.20-01.31.54:442][611]LogPlayLevel: PIE: World Init took: (0.001002s)
+[2020.01.20-01.31.54:443][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003489s)
+[2020.01.20-01.31.54:490][611]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2020.01.20-01.31.54:491][611]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.20-01.31.54:491][611]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.20-01.31.54:491][611]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.20-01.31.54:491][611]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.20-01.31.54:491][611]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.20-01.31.54:491][611]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.20-01.31.54:491][611]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.20-01.31.54:491][611]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.20-01.31.54:491][611]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.20-01.31.54:491][611]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.20-01.31.54:505][611]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.20-01.31.54:505][611]LogAudioMixer: Display: Name: Speakers/Headphones (Realtek(R) Audio)
+[2020.01.20-01.31.54:505][611]LogAudioMixer: Display: Is Default: Yes
+[2020.01.20-01.31.54:505][611]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.20-01.31.54:505][611]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.20-01.31.54:505][611]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.20-01.31.54:505][611]LogAudioMixer: Display: Channel Order:
+[2020.01.20-01.31.54:505][611]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.20-01.31.54:505][611]LogAudioMixer: Display: 1: FrontRight
+[2020.01.20-01.31.54:616][611]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2020.01.20-01.31.54:617][611]LogInit: FAudioDevice initialized.
+[2020.01.20-01.31.54:627][611]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.01.20-01.31.54:628][611]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.01.19-20.31.54
+[2020.01.20-01.31.54:628][611]LogWorld: Bringing up level for play took: 0.000658
+[2020.01.20-01.31.54:629][611]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2020.01.20-01.31.54:631][611]PIE: Warning: The widget 'WBP_Hud_C' was already added to the screen.
+[2020.01.20-01.31.54:631][611]LogTemp: Error: Starting health is: 100.000000
+[2020.01.20-01.31.54:631][611]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.414
+[2020.01.20-01.31.56:463][715]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.31.56:479][716]LogTemp: Warning: EndedFocus! 
+[2020.01.20-01.31.58:746][852]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.31.58:929][863]LogTemp: Warning: EndedFocus! 
+[2020.01.20-01.31.59:296][885]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.32.00:196][939]LogTemp: Error: Destroy has been called
+[2020.01.20-01.32.00:196][939]LogTemp: Error: Your health is now  60.000000
+[2020.01.20-01.32.06:696][329]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.32.07:531][379]LogTemp: Error: Destroy has been called
+[2020.01.20-01.32.07:531][379]LogTemp: Error: Your health is now  70.000000
+[2020.01.20-01.32.13:096][713]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.32.13:413][732]LogTemp: Error: Destroy has been called
+[2020.01.20-01.32.13:413][732]LogTemp: Error: Your health is now  80.000000
+[2020.01.20-01.32.20:347][148]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.32.20:347][148]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.32.20:347][148]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.20-01.32.20:347][148]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.01.20-01.32.20:347][148]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.32.20:347][148]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.01.20-01.32.20:347][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.20-01.32.20:354][148]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.20-01.32.20:360][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.20-01.32.20:402][148]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.32.20:406][148]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.20-01.32.20:411][148]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2020.01.20-01.32.20:532][149]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.01.20-01.32.31:997][825]LogSlate: Window 'Message Log' being destroyed
+[2020.01.20-01.32.32:001][825]LogSlate: Window 'Message Log' being destroyed
+[2020.01.20-01.33.44:036][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_Hud" FILE="../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Blueprints/Widgets/WBP_Hud.uasset" SILENT=true
+[2020.01.20-01.33.44:052][133]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/WBP_Hud910BF17F41C5CA6FCF02CFBA75F0BC08.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Blueprints/Widgets/WBP_Hud.uasset'
+[2020.01.20-01.33.44:075][133]AssetCheck: New page: Asset Save: WBP_Hud
+[2020.01.20-01.33.44:075][133]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_Hud.WBP_Hud
+[2020.01.20-01.33.46:284][263]BlueprintLog: New page: Compile WBP_Hud
+[2020.01.20-01.33.46:588][263]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2020.01.20-01.33.47:368][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/WBP_Hud" FILE="../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Blueprints/Widgets/WBP_Hud.uasset" SILENT=true
+[2020.01.20-01.33.47:380][305]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/WBP_Hud10F42C684739540F71D542AED953BFA1.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Blueprints/Widgets/WBP_Hud.uasset'
+[2020.01.20-01.33.47:398][305]AssetCheck: New page: Asset Save: WBP_Hud
+[2020.01.20-01.33.47:398][305]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_Hud.WBP_Hud
+[2020.01.20-01.33.50:033][457]BlueprintLog: New page: Compile BP_Character
+[2020.01.20-01.33.50:341][457]LogUObjectHash: Compacting FUObjectHashTables data took   5.89ms
+[2020.01.20-01.33.51:112][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Character" FILE="../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Blueprints/BP_Character.uasset" SILENT=true
+[2020.01.20-01.33.51:137][500]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/BP_Character047753FB48ADE54826933D9DFC0A66DF.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Blueprints/BP_Character.uasset'
+[2020.01.20-01.33.51:151][500]AssetCheck: New page: Asset Save: BP_Character
+[2020.01.20-01.33.51:151][500]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Character.BP_Character
+[2020.01.20-01.33.52:828][600]BlueprintLog: New page: Compile BP_Interactable
+[2020.01.20-01.33.53:128][600]LogUObjectHash: Compacting FUObjectHashTables data took   5.18ms
+[2020.01.20-01.33.53:643][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Interactable" FILE="../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Blueprints/BP_Interactable.uasset" SILENT=true
+[2020.01.20-01.33.53:662][625]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/BP_InteractableD3753C61415051243BC124A631E612F9.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Blueprints/BP_Interactable.uasset'
+[2020.01.20-01.33.53:677][625]AssetCheck: New page: Asset Save: BP_Interactable
+[2020.01.20-01.33.53:677][625]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Interactable.BP_Interactable
+[2020.01.20-01.33.57:303][838]Candidate modules for hot reload:
+[2020.01.20-01.33.57:303][838]  ModernGladiator
+[2020.01.20-01.33.57:303][838]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ModernGladiator,3005 Win64 Development -TargetType=Editor -Project="D:/lesupermomo/git2/Modern_Gladiator/ModernGladiator/ModernGladiator.uproject" "D:/lesupermomo/git2/Modern_Gladiator/ModernGladiator/ModernGladiator.uproject"  -IgnoreJunk]
+[2020.01.20-01.33.57:336][838]Warning: Starting HotReload took  0.1s.
+[2020.01.20-01.34.06:076][156]CompilerResultsLog: New page: Compilation - Jan 19, 2020, 3:34:06 PM
+[2020.01.20-01.34.06:076][156]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\lesupermomo\git2\Modern_Gladiator).
+[2020.01.20-01.34.06:076][156]CompilerResultsLog: Parsing headers for ModernGladiatorEditor
+[2020.01.20-01.34.06:076][156]CompilerResultsLog:   Running UnrealHeaderTool "D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\ModernGladiator.uproject" "D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\ModernGladiatorEditor\Development\ModernGladiatorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.01.20-01.34.06:076][156]CompilerResultsLog: Reflection code generated for ModernGladiatorEditor in 5.8813722 seconds
+[2020.01.20-01.34.06:077][156]CompilerResultsLog: Building ModernGladiatorEditor...
+[2020.01.20-01.34.06:077][156]CompilerResultsLog: Using Visual Studio 2019 14.24.28315 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (D:\Program Files (x86)\Windows Kits\10).
+[2020.01.20-01.34.06:077][156]CompilerResultsLog: [Upgrade]
+[2020.01.20-01.34.06:077][156]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.01.20-01.34.06:077][156]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.01.20-01.34.06:077][156]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.01.20-01.34.06:077][156]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.01.20-01.34.06:077][156]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in ModernGladiatorEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.01.20-01.34.06:077][156]CompilerResultsLog: [Upgrade]
+[2020.01.20-01.34.06:077][156]CompilerResultsLog: Building 3 actions with 12 processes...
+[2020.01.20-01.34.06:077][156]CompilerResultsLog:   [1/3] UE4Editor-ModernGladiator-3005.lib
+[2020.01.20-01.34.06:077][156]CompilerResultsLog:      Creating library D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\UE4Editor-ModernGladiator-3005.lib and object D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\UE4Editor-ModernGladiator-3005.exp
+[2020.01.20-01.34.06:077][156]CompilerResultsLog:   [2/3] UE4Editor-ModernGladiator-3005.dll
+[2020.01.20-01.34.06:077][156]CompilerResultsLog:      Creating library D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\UE4Editor-ModernGladiator-3005.suppressed.lib and object D:\lesupermomo\git2\Modern_Gladiator\ModernGladiator\Intermediate\Build\Win64\UE4Editor\Development\ModernGladiator\UE4Editor-ModernGladiator-3005.suppressed.exp
+[2020.01.20-01.34.06:077][156]CompilerResultsLog:   [3/3] ModernGladiatorEditor.target
+[2020.01.20-01.34.06:078][156]CompilerResultsLog: Total time in Parallel executor: 1.55 seconds
+[2020.01.20-01.34.06:078][156]CompilerResultsLog: Total execution time: 8.41 seconds
+[2020.01.20-01.34.06:078][156]LogMainFrame: MainFrame: Module compiling took 8.785 seconds
+[2020.01.20-01.34.06:128][156]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2020.01.20-01.34.06:168][156]LogContentBrowser: Native class hierarchy updated for 'ModernGladiator' in 0.0004 seconds. Added 4 classes and 5 folders.
+[2020.01.20-01.34.06:175][156]Display: HotReload successful (10 functions remapped  0 scriptstructs remapped)
+[2020.01.20-01.34.06:321][156]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.01.20-01.34.06:335][156]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 3022 classes and 727 folders.
+[2020.01.20-01.34.06:335][156]Display: HotReload took  9.1s.
+[2020.01.20-01.34.18:391][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.01.20-01.34.18:472][295]LogUObjectHash: Compacting FUObjectHashTables data took   5.43ms
+[2020.01.20-01.34.18:493][295]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/Main54715C544DA396A9CEED05878F8C4F99.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Maps/Main.umap'
+[2020.01.20-01.34.18:518][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2020.01.20-01.34.18:542][295]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/Main_BuiltDataB1FFC38344250A23C8BC24BDE968D513.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Content/Maps/Main_BuiltData.uasset'
+[2020.01.20-01.34.18:564][295]AssetCheck: New page: Asset Save: multiple assets
+[2020.01.20-01.34.18:564][295]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2020.01.20-01.34.18:564][295]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2020.01.20-01.34.20:606][415]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.20-01.34.20:633][415]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.20-01.34.20:633][415]PIE: New page: PIE session: Main (Jan 19, 2020, 3:34:20 PM)
+[2020.01.20-01.34.20:633][415]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.01.20-01.34.20:635][415]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002224s)
+[2020.01.20-01.34.20:636][415]LogAIModule: Creating AISystem for world Main
+[2020.01.20-01.34.20:636][415]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2020.01.20-01.34.20:636][415]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003272s)
+[2020.01.20-01.34.20:697][415]LogUObjectHash: Compacting FUObjectHashTables data took   4.99ms
+[2020.01.20-01.34.20:698][415]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.20-01.34.20:698][415]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.20-01.34.20:698][415]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.20-01.34.20:698][415]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.20-01.34.20:698][415]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.20-01.34.20:698][415]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.20-01.34.20:698][415]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.20-01.34.20:698][415]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.20-01.34.20:698][415]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.20-01.34.20:698][415]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.20-01.34.20:711][415]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.20-01.34.20:711][415]LogAudioMixer: Display: Name: Speakers/Headphones (Realtek(R) Audio)
+[2020.01.20-01.34.20:711][415]LogAudioMixer: Display: Is Default: Yes
+[2020.01.20-01.34.20:711][415]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.20-01.34.20:711][415]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.20-01.34.20:711][415]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.20-01.34.20:711][415]LogAudioMixer: Display: Channel Order:
+[2020.01.20-01.34.20:711][415]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.20-01.34.20:711][415]LogAudioMixer: Display: 1: FrontRight
+[2020.01.20-01.34.20:816][415]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2020.01.20-01.34.20:818][415]LogInit: FAudioDevice initialized.
+[2020.01.20-01.34.20:825][415]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.01.20-01.34.20:826][415]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.01.19-20.34.20
+[2020.01.20-01.34.20:827][415]LogWorld: Bringing up level for play took: 0.000695
+[2020.01.20-01.34.20:827][415]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.01.20-01.34.20:830][415]PIE: Warning: The widget 'WBP_Hud_C' was already added to the screen.
+[2020.01.20-01.34.20:830][415]LogTemp: Error: Starting health is: 100.000000
+[2020.01.20-01.34.20:830][415]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.611
+[2020.01.20-01.34.24:330][618]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.34.24:681][639]LogTemp: Error: Destroy has been called
+[2020.01.20-01.34.24:681][639]LogTemp: Error: Your health is now  60.000000
+[2020.01.20-01.34.30:631][996]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.34.30:931][ 14]LogTemp: Error: Destroy has been called
+[2020.01.20-01.34.30:931][ 14]LogTemp: Error: Your health is now  70.000000
+[2020.01.20-01.34.31:481][ 47]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.34.32:482][107]LogTemp: Error: Destroy has been called
+[2020.01.20-01.34.32:482][107]LogTemp: Error: Your health is now  80.000000
+[2020.01.20-01.34.38:531][470]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.34.38:545][470]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.01.20-01.34.38:566][470]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.01.20-01.34.38:566][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.20-01.34.38:566][470]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.01.20-01.34.38:566][470]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.34.38:566][470]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.01.20-01.34.38:566][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.20-01.34.38:580][470]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.20-01.34.38:588][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.20-01.34.38:634][470]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.34.38:638][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.20-01.34.38:643][470]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2020.01.20-01.34.38:771][471]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.01.20-01.37.33:194][251]LogSlate: Window 'Message Log' being destroyed
+[2020.01.20-01.37.33:198][251]LogSlate: Window 'Message Log' being destroyed
+[2020.01.20-01.46.10:787][716]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2020.01.20-01.46.10:788][716]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.049
+[2020.01.20-01.46.10:788][716]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Widgets/WBP_Hud] ([1] browsable assets)...
+[2020.01.20-01.46.10:788][716]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Widgets/WBP_Hud]
+[2020.01.20-01.46.11:178][716]LogSavePackage: Moving '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/WBP_Hud_Auto8242A86E04D3606E9500562AE6C7EEC86.tmp' to '../../../../../../lesupermomo/git2/Modern_Gladiator/ModernGladiator/Saved/Autosaves/Game/Blueprints/Widgets/WBP_Hud_Auto8.uasset'
+[2020.01.20-01.46.11:179][716]LogFileHelpers: Auto-saving content packages took 0.391
+[2020.01.20-01.48.13:192][935]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.20-01.48.13:225][935]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.01.20-01.48.13:230][935]LogPlayLevel: [PlayLevel] Compiling WBP_Hud before play...
+[2020.01.20-01.48.13:690][935]LogUObjectHash: Compacting FUObjectHashTables data took   6.22ms
+[2020.01.20-01.48.13:691][935]LogPlayLevel: PlayLevel: Blueprint regeneration took 465 ms (1 blueprints)
+[2020.01.20-01.48.13:691][935]PIE: New page: PIE session: Main (Jan 19, 2020, 3:48:13 PM)
+[2020.01.20-01.48.13:691][935]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.01.20-01.48.13:693][935]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002340s)
+[2020.01.20-01.48.13:694][935]LogAIModule: Creating AISystem for world Main
+[2020.01.20-01.48.13:694][935]LogPlayLevel: PIE: World Init took: (0.000897s)
+[2020.01.20-01.48.13:694][935]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003347s)
+[2020.01.20-01.48.13:741][935]LogUObjectHash: Compacting FUObjectHashTables data took   4.03ms
+[2020.01.20-01.48.13:741][935]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.01.20-01.48.13:741][935]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.01.20-01.48.13:741][935]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.01.20-01.48.13:741][935]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.01.20-01.48.13:741][935]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.01.20-01.48.13:741][935]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.01.20-01.48.13:741][935]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.01.20-01.48.13:741][935]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.01.20-01.48.13:742][935]LogAudio: Display: Using built-in audio occlusion.
+[2020.01.20-01.48.13:742][935]LogAudioMixer: Display: Initializing audio mixer.
+[2020.01.20-01.48.13:755][935]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.01.20-01.48.13:755][935]LogAudioMixer: Display: Name: Speakers/Headphones (Realtek(R) Audio)
+[2020.01.20-01.48.13:755][935]LogAudioMixer: Display: Is Default: Yes
+[2020.01.20-01.48.13:755][935]LogAudioMixer: Display: Sample Rate: 48000
+[2020.01.20-01.48.13:755][935]LogAudioMixer: Display: Channel Count Used: 2
+[2020.01.20-01.48.13:755][935]LogAudioMixer: Display: Device Channel Count: 2
+[2020.01.20-01.48.13:755][935]LogAudioMixer: Display: Channel Order:
+[2020.01.20-01.48.13:755][935]LogAudioMixer: Display: 0: FrontLeft
+[2020.01.20-01.48.13:755][935]LogAudioMixer: Display: 1: FrontRight
+[2020.01.20-01.48.13:858][935]LogAudioMixer: Display: Using Audio Device Speakers/Headphones (Realtek(R) Audio)
+[2020.01.20-01.48.13:859][935]LogInit: FAudioDevice initialized.
+[2020.01.20-01.48.13:925][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.20-01.48.13:925][935]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.01.20-01.48.13:926][935]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.01.19-20.48.13
+[2020.01.20-01.48.13:927][935]LogWorld: Bringing up level for play took: 0.000917
+[2020.01.20-01.48.13:927][935]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2020.01.20-01.48.13:930][935]PIE: Warning: The widget 'WBP_Hud_C' was already added to the screen.
+[2020.01.20-01.48.13:930][935]LogTemp: Error: Starting health is: 100.000000
+[2020.01.20-01.48.13:931][935]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Main 1.713
+[2020.01.20-01.48.15:279][  9]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.48.15:313][ 11]LogTemp: Warning: EndedFocus! 
+[2020.01.20-01.48.15:745][ 37]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.48.16:331][ 72]LogTemp: Error: Destroy has been called
+[2020.01.20-01.48.16:331][ 72]LogTemp: Error: Your health is now  60.000000
+[2020.01.20-01.48.17:762][158]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.48.17:862][164]LogTemp: Warning: EndedFocus! 
+[2020.01.20-01.48.18:061][174]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.48.18:127][178]LogTemp: Warning: EndedFocus! 
+[2020.01.20-01.48.19:093][236]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.48.19:210][243]LogTemp: Warning: EndedFocus! 
+[2020.01.20-01.48.19:361][252]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.48.19:495][260]LogTemp: Error: Destroy has been called
+[2020.01.20-01.48.19:495][260]LogTemp: Error: Your health is now  70.000000
+[2020.01.20-01.48.19:927][286]LogTemp: Warning: StartedFocus! 
+[2020.01.20-01.48.20:145][299]LogTemp: Error: Destroy has been called
+[2020.01.20-01.48.20:145][299]LogTemp: Error: Your health is now  80.000000
+[2020.01.20-01.48.31:062][954]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.48.31:075][954]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.01.20-01.48.31:095][954]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.01.20-01.48.31:095][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.20-01.48.31:095][954]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.01.20-01.48.31:105][954]LogSlate: Window 'ModernGladiator Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.01.20-01.48.31:112][954]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.48.31:112][954]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.01.20-01.48.31:113][954]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.20-01.48.31:121][954]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.20-01.48.31:128][954]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.01.20-01.48.31:175][954]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.01.20-01.48.31:184][954]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2020.01.20-01.48.31:324][955]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.01.20-01.48.35:052][169]LogSlate: Window 'Message Log' being destroyed
+[2020.01.20-01.48.35:056][169]LogSlate: Window 'Message Log' being destroyed

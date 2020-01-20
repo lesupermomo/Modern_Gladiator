@@ -36,7 +36,8 @@ AMyCharacter::AMyCharacter()
 	BaseLookUpAtRate = 45;
 	TraceDistance = 2000;
 
-	DeffaultHealth = 50;
+	DeffaultHealth = 100;
+	CurrentHealth = 50;
 
 	MinZ = 10;
 	MaxZ = 500;
@@ -51,7 +52,7 @@ void AMyCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	//Assosiating delegate functions.
-	UE_LOG(LogTemp, Error, TEXT("Starting health is: %f"), DeffaultHealth);
+	UE_LOG(LogTemp, Error, TEXT("Starting health is: %f"), CurrentHealth);
 	MeshComponent->OnComponentBeginOverlap.AddDynamic(this, &AMyCharacter::OnOverlapBegin);
 }
 
@@ -59,32 +60,32 @@ void AMyCharacter::BeginPlay()
 /*  HEALTH  */
 void AMyCharacter::ReceiveDamege()
 {
-	if (DeffaultHealth > 25)
+	if (CurrentHealth > 25)
 	{
-		DeffaultHealth = DeffaultHealth - 25;
+		CurrentHealth = CurrentHealth - 25;
 	}
 	else
 	{
 		Die();
 	}
-	UE_LOG(LogTemp, Error, TEXT("Your health is now  %f"), DeffaultHealth);
+	UE_LOG(LogTemp, Error, TEXT("Your health is now  %f"), CurrentHealth);
 
 }
 
 void AMyCharacter::ReceiveHealth()
 {
 
-	if (DeffaultHealth < 100)
+	if (CurrentHealth < 100)
 	{
-		DeffaultHealth = DeffaultHealth + 10;
+		CurrentHealth = CurrentHealth + 10;
 	}//else nothing
-	UE_LOG(LogTemp, Error, TEXT("Your health is now  %f"), DeffaultHealth);
+	UE_LOG(LogTemp, Error, TEXT("Your health is now  %f"), CurrentHealth);
 	//UE_LOG(LogTemp, Error, TEXT("Your Health is now: %f", DeffaultHealth));
 }
 
 void AMyCharacter::Die()
 {
-	UE_LOG(LogTemp, Error, TEXT("Your Health is now: %f, you are DEAD"), DeffaultHealth);
+	UE_LOG(LogTemp, Error, TEXT("Your Health is now: %f, you are DEAD"), CurrentHealth);
 	this->Destroy();
 }
 

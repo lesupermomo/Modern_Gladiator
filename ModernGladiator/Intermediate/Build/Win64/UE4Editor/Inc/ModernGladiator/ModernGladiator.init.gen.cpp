@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeModernGladiator_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x6E10A7DE,
-				0xC15C4BDC,
+				0xF6B12C38,
+				0xB7790FF9,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

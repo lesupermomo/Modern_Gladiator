@@ -67,6 +67,9 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Health")
 		float DeffaultHealth;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Health")
+		float CurrentHealth;
+
 	// TODO add the min and max for clamping the camera
 
 	UFUNCTION()
@@ -74,9 +77,11 @@ protected:
 			int32 OtherBodyIndex,bool bFromSweep,const FHitResult& SweepResult);
 
 public:	
-
 	
+	
+	UFUNCTION(BlueprintCallable,Category="Health")
 	void ReceiveDamege();
+	UFUNCTION(BlueprintCallable, Category = "Health")
 	void ReceiveHealth();
 	void Die();
 	virtual void Tick(float DeltaTime) override;
