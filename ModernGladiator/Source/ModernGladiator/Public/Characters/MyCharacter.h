@@ -70,11 +70,17 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Health")
 		float CurrentHealth;
 
+
 	// TODO add the min and max for clamping the camera
 
 	UFUNCTION()
 	void OnOverlapBegin(UPrimitiveComponent* OverlappedComponent,AActor* OtherActor,UPrimitiveComponent* OtherComp,
 			int32 OtherBodyIndex,bool bFromSweep,const FHitResult& SweepResult);
+
+	//Impulse
+	UPROPERTY(EditAnywhere)
+		float ImpulseForce;
+
 
 public:	
 	

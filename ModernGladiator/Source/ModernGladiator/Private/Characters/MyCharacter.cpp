@@ -39,9 +39,20 @@ AMyCharacter::AMyCharacter()
 	DeffaultHealth = 100;
 	CurrentHealth = 50;
 
+	ImpulseForce = 2000.0f;
+
 	MinZ = 10;
 	MaxZ = 500;
 	
+}
+
+void AMyCharacter::Tick(float DeltaTime)
+{
+	//Super::Tick(DeltaTime);
+	TraceForward();
+
+	//	CameraComponent->
+
 }
 
 //TODO
@@ -91,14 +102,7 @@ void AMyCharacter::Die()
 
 
 
-void AMyCharacter::Tick(float DeltaTime)
-{
-	//Super::Tick(DeltaTime);
-	TraceForward();
 
-//	CameraComponent->
-
-}
 
 //BeginPlay method not used because everything is set up in the constructor
 
@@ -162,10 +166,10 @@ void AMyCharacter::InteractPressed()
 	bool bHit = GetWorld()->LineTraceSingleByChannel(Hit, Start, End, ECC_Visibility, TraceParams);
 
 	DrawDebugLine(GetWorld(), Start, End, FColor::Red, false, 2.0f);
-	DrawDebugBox(GetWorld(), Hit.ImpactPoint,FVector (10,10,10) , FColor::Green, false, 2.0f);
-
-	//Actual method
+	DrawDebugBox(GetWorld(), Hit.ImpactPoint,FVector(5,5,5) , FColor::Green, false, 2.0f);
 	
+	//Interaciton method
+	bool interactable = false;
 	//TraceForward();//will call the TraceForward_Implementation //not really needed bc we already call it in tick but that's fine for now
 	if (FocusedActor)//Else do nothing
 	{
@@ -173,8 +177,22 @@ void AMyCharacter::InteractPressed()
 		if (Interface)//double check
 		{
 			Interface->Execute_OnInteract(FocusedActor,this); //you have to give self on the method
+			interactable = true;
 		}
 	}
+
+	if ( (bHit) && (interactable==false) && (Hit.GetActor()->IsRootComponentMovable()) )
+	//if ( (interactable == false) && (Hit.GetActor()->IsRootComponentMovable()))
+	{
+		UE_LOG(LogTemp, Error, TEXT("I came here"));
+		UStaticMeshComponent* MeshComponent = Cast<UStaticMeshComponent>(Hit.GetActor()->GetRootComponent());
+		if (MeshComponent)
+		{
+			FVector CameraForward = CameraComponent->GetForwardVector(); 
+			MeshComponent->AddImpulse(CameraForward * ImpulseForce * MeshComponent->GetMass());
+		}
+	}
+	UE_LOG(LogTemp, Error, TEXT("I got out"));
 
 }
 
